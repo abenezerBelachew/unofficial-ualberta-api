@@ -1,4 +1,7 @@
 # Unofficial University of Alberta API
+
+### This is just a fun personal project I made to test FastAPI. It's not affiliated with the University of Alberta.
+
 <p>
 Inspired by UWaterloo's API: https://openapi.data.uwaterloo.ca/api-docs/index.html. I made a somewhat similar API for U of Alberta. I couldn't get as many endpoints as  UWaterloo's because I don't have access to UAlberta's databases so I've scraped what was available online. 
 </p>
@@ -22,7 +25,7 @@ There were over 10k pages to scrap so if you're going to run scraper.py it's goi
 Install locally
 
 ```bash 
-  cd ualberta-api
+  cd unofficial-ualberta-api
   pipenv install -r requirements.txt
   pipenv shell
 
