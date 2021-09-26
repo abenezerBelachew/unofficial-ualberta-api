@@ -3,7 +3,7 @@
 ### This is just a fun personal project I made to test FastAPI. It's not affiliated with the University of Alberta.
 
 <p>
-Inspired by UWaterloo's API: https://openapi.data.uwaterloo.ca/api-docs/index.html. I made a somewhat similar API for U of Alberta. I couldn't get as many endpoints as  UWaterloo's because I don't have access to UAlberta's databases so I've scraped what was available online. 
+Inspired by UWaterloo's API (https://openapi.data.uwaterloo.ca/api-docs/index.html), I made a somewhat similar API for U of Alberta. I couldn't get as many endpoints as  UWaterloo's because I don't have access to UAlberta's databases so I've scraped what was available online. 
 </p>
 <p>
 I've tried to balance the over-fetching and under-fetching of data by allowing user to query based on different variables in their endpoints. To keep it simple, I have used JSON. Getting what you need from the scraped data should be as simple as calling keys from a dictionary.
