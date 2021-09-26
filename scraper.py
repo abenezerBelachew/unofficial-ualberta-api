@@ -1,7 +1,6 @@
 import requests
 import json
 import re
-
 from bs4 import BeautifulSoup as bs
 from time import sleep, time
 
@@ -9,6 +8,7 @@ from time import sleep, time
 ROOT_URL = "https://apps.ualberta.ca"
 MAIN_URL = "https://apps.ualberta.ca/catalogue"
 DELAY_TIME = 4
+
 
 def write_to_file(name_of_file, data):
     """
