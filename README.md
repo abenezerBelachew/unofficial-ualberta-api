@@ -18,7 +18,7 @@ There were over 10k pages to scrap so if you're going to run scraper.py it's goi
 - 10114 Courses
 
 ## Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://www.abenezerbelachew.com/images/projects/ualbertaapi.gif)
 
 ## Installation 
 
@@ -30,9 +30,33 @@ Install locally
   pipenv shell
 
   python3 scraper.py // Not necessary if you want to use the already scraped data in the data folder.
-  uvicorn main:app --reload
+  uvicorn main:app --reload or python main.py
 ```
 Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
+
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
