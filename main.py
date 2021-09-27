@@ -1,4 +1,5 @@
 import json
+import uvicorn
 from fastapi import FastAPI, HTTPException
 from typing import Optional
 
@@ -219,3 +220,7 @@ def get_seminars_for_course(course_code: str, term_code: str):
         return class_schedules[course_code][term_code]["Seminars"]
     except:
         return {"detail": "No Seminars for this course."}
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
