@@ -25,11 +25,12 @@ There were over 10k pages to scrap so if you're going to run scraper.py it's goi
 Install locally
 
 ```bash 
+  git clone https://github.com/abenezerBelachew/unofficial-ualberta-api.git
   cd unofficial-ualberta-api
   pipenv install -r requirements.txt
   pipenv shell
 
-  python3 scraper.py // Not necessary if you want to use the already scraped data in the data folder.
+  python3 scraper.py # Not necessary if you want to use the already scraped data in the data folder.
   uvicorn main:app --reload or python main.py
 ```
 Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
