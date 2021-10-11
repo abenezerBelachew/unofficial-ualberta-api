@@ -35,27 +35,158 @@ Install locally
 Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 
 
-## API Reference
+# API Reference
 
-#### Get all items
+## Faculties
+### Get Faculties
 
 ```http
-  GET /api/items
+  GET /faculties
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `No Parameters` | `-` | Returns all faculties with necessary data |
 
-#### Get item
+### Get specific faculty
 
 ```http
-  GET /api/items/${id}
+  GET /faculties/{faculty_code}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `faculty_code`      | `string` | The Faculty Code (E.g. RM for Faculty of Rehabilitation Medicine) |
+
+<!-- ----------------------------------------------------------- -->
+
+## Subjects
+### Get Subjects
+
+```http
+  GET /subjects
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `No Parameters` | `-` | Returns all subjects with necessary data |
+
+### Get specific faculty
+
+```http
+  GET /subjects/{subject_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `subject_code`      | `string` | The Subject Code (E.g. BIOEN for Bioresource Engineering) |
+
+
+<!-- ----------------------------------------------------------- -->
+
+
+## Courses
+### Get Courses
+
+```http
+  GET /courses
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `No Parameters` | `-` | Returns all courses with necessary data |
+
+### Get specific faculty
+
+```http
+  GET /courses/{course_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `course_code`      | `string` | The Course Code (E.g. CHEM102 for Introductory University Chemistry II) |
+
+
+
+
+<!-- ----------------------------------------------------------- -->
+
+
+## Class Schedules
+### Get all class schedules
+
+```http
+  GET /class_schedules
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `No Parameters` | `-` | Returns all class schedules with necessary data |
+
+### Get specific class schedule for a course
+
+```http
+  GET /class_schedules/{course_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `course_code`      | `string` | The Course Code (E.g. MATH322 for Graph Theory) |
+
+
+### Get specific class schedule for a course in a specific term
+
+```http
+  GET /class_schedules/{course_code}/{term_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `course_code`      | `string` | The Course Code (E.g. MATH322 for Graph Theory) |
+| `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
+
+
+### Get lecture class schedule for a course in a specific term 
+
+```http
+  GET /class_schedules/lectures/{course_code}/{term_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| - | - | Gets the lecture section of a specific course in a specific term|
+| `course_code`      | `string` | The Course Code (E.g. MATH322 for Graph Theory) |
+| `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
+
+
+### Get lab class schedule for a course in a specific term 
+
+```http
+  GET /class_schedules/labs/{course_code}/{term_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| - | - | Gets the lab section of a specific course in a specific term|
+| `course_code`      | `string` | The Course Code (E.g. CMPUT404 for Web Applications and Architecture) |
+| `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
+
+
+### Get lab class schedule for a course in a specific term 
+
+```http
+  GET /class_schedules/seminars/{course_code}/{term_code}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| - | - | Gets the seminar section of a specific course in a specific term|
+| `course_code`      | `string` | The Course Code (E.g. CMPUT204 for Algorithms I) |
+| `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
+
+
+
+
 
 
 ## License
