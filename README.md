@@ -173,7 +173,7 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
 
 
-### Get lab class schedule for a course in a specific term 
+### Get seminar class schedule for a course in a specific term 
 
 ```http
   GET /class_schedules/seminars/{course_code}/{term_code}
