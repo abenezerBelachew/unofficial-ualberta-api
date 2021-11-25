@@ -6,7 +6,7 @@
 Inspired by UWaterloo's API (https://openapi.data.uwaterloo.ca/api-docs/index.html), I made a somewhat similar API for U of Alberta. I couldn't get as many endpoints as  UWaterloo's because I don't have access to UAlberta's databases so I've scraped what was available online. 
 </p>
 <p>
-I've tried to balance the over-fetching and under-fetching of data by allowing user to query based on different variables in their endpoints. To keep it simple, I have used JSON. Getting what you need from the scraped data should be as simple as calling keys from a dictionary.
+I've tried to balance the over-fetching and under-fetching of data by allowing user to query based on different variables in their endpoints. To keep it simple, I have used a JSON file to store the scraped data. Getting what you need from the scraped data should be as simple as calling keys from a dictionary.
 </p>
 <p>
 There were over 10k pages to scrap so if you're going to run scraper.py it's going to take a while if DELAY_TIME is not changed. I suggest not to change it to avoid hitting U of A's servers too much.
