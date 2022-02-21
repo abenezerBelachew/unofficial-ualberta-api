@@ -18,7 +18,7 @@ There were over 10k pages to scrap so if you're going to run scraper.py it's goi
 - 10114 Courses
 
 ## Screenshots
-![App Screenshot](https://www.abenezerbelachew.com/images/projects/ualbertaapi.gif)
+![App Screenshot](https://www.abenezerbelachew.com/static/images/projects/ualbertaapi.gif)
 
 ## Installation 
 
