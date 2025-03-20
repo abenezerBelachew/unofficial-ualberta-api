@@ -1,0 +1,82 @@
+{
+    "AH": {
+        "faculty_name": "Faculty of Agricultural, Life and Environmental Sciences",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ah"
+    },
+    "AR": {
+        "faculty_name": "Faculty of Arts",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ar"
+    },
+    "AU": {
+        "faculty_name": "Augustana Faculty",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/au"
+    },
+    "BC": {
+        "faculty_name": "Faculty of Business",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/bc"
+    },
+    "ED": {
+        "faculty_name": "Faculty of Education",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ed"
+    },
+    "EN": {
+        "faculty_name": "Faculty of Engineering",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/en"
+    },
+    "ET": {
+        "faculty_name": "Examinations and Timetabling",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/et"
+    },
+    "EX": {
+        "faculty_name": "Faculty of Extension",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ex"
+    },
+    "GS": {
+        "faculty_name": "Faculty of Graduate Studies and Research",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/gs"
+    },
+    "LA": {
+        "faculty_name": "Faculty of Law",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/la"
+    },
+    "MH": {
+        "faculty_name": "Faculty of Medicine and Dentistry",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/mh"
+    },
+    "NS": {
+        "faculty_name": "Faculty of Native Studies",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ns"
+    },
+    "NU": {
+        "faculty_name": "Faculty of Nursing",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/nu"
+    },
+    "PE": {
+        "faculty_name": "Faculty of Kinesiology, Sport, and Recreation",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/pe"
+    },
+    "PH": {
+        "faculty_name": "Faculty of Pharmacy and Pharmaceutical Sciences",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ph"
+    },
+    "PS": {
+        "faculty_name": "School of Public Health",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ps"
+    },
+    "RM": {
+        "faculty_name": "Faculty of Rehabilitation Medicine",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/rm"
+    },
+    "SA": {
+        "faculty_name": "Facult\u00e9 Saint-Jean",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/sa"
+    },
+    "SC": {
+        "faculty_name": "Faculty of Science",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/sc"
+    },
+    "SS": {
+        "faculty_name": "St Stephen's College",
+        "faculty_link": "https://apps.ualberta.ca/catalogue/faculty/ss"
+    }
+}
