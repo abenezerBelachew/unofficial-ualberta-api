@@ -14,8 +14,8 @@ def write_to_file(name_of_file, data):
     """
     Writes scraped data a json file.
     """
-    with open(f'../data/{name_of_file}.json', 'w') as file:
-        json.dump(data, file)
+    with open(f'data/{name_of_file}.json', 'w') as file:
+        json.dump(data, file, indent=4)
 
 
 def get_faculties():
@@ -24,28 +24,35 @@ def get_faculties():
     {AR :  ['Faculty of Arts', 'https://apps.ualberta.ca/catalogue/faculty/ar'], 
     AU :  ['Augustana Faculty', 'https://apps.ualberta.ca/catalogue/faculty/au']}
     """
-    catalog_page = requests.get(MAIN_URL).text
-    course_soup = bs(catalog_page, 'html.parser')
+    try:
+        catalog_page = requests.get(MAIN_URL, headers={'User-Agent': 'Mozilla/5.0'}).text
+        course_soup = bs(catalog_page, 'html.parser')
 
-    faculty_div = course_soup.find('div', {'class': 'col-md-6'})
-    faculties = faculty_div.findAll('li')
+        faculty_container = course_soup.select_one('body > div.content > div.container > div.row > div.col.col-md-6.col-lg-5.offset-lg-2 > ul')
+        if not faculty_container:
+            print("Error: Faculty container not found!")
+            return {}
 
-    faculty_data = dict()
+        faculty_data = dict()
 
-    for faculty in faculties:
-        sleep(DELAY_TIME)
+        for faculty in faculty_container.find_all('li'):
+            sleep(DELAY_TIME)
 
-        faculty_title, faculty_link = [str(faculty.find('a').text), faculty.find('a').get('href')]
-        faculty_code, faculty_name = faculty_title.split(' - ')
-        faculty_link = ROOT_URL + faculty_link
-        
-        faculty_data[faculty_code] = {
-            "faculty_name": faculty_name,
-            "faculty_link": faculty_link
-        }
+            faculty_title, faculty_link = [str(faculty.find('a').text), faculty.find('a').get('href')]
+            faculty_code, faculty_name = faculty_title.split(' - ')
+            faculty_link = ROOT_URL + faculty_link
+            
+            faculty_data[faculty_code] = {
+                "faculty_name": faculty_name,
+                "faculty_link": faculty_link
+            }
 
-    write_to_file('faculties', faculty_data)
-    return faculty_data
+        write_to_file('faculties', faculty_data)
+        return faculty_data
+
+    except Exception as e:
+        print(f"Error in get_faculties(): {str(e)}")
+        return {}
 
 
 def get_subjects(faculty_data):
@@ -331,17 +338,17 @@ def main():
     print("Scraping Faculties...")
     faculty_data = get_faculties()
 
-    print("Scraping Subjects...")
-    subject_data = get_subjects(faculty_data)
+    # print("Scraping Subjects...")
+    # subject_data = get_subjects(faculty_data)
 
-    print("Scraping Courses...")
-    course_data = get_courses(subject_data)
+    # print("Scraping Courses...")
+    # course_data = get_courses(subject_data)
 
-    print("Scraping Class Schedules...")
-    class_schedules = get_class_schedules(course_data)
-    print("Done. Check the data folder for scraped data.")
+    # print("Scraping Class Schedules...")
+    # class_schedules = get_class_schedules(course_data)
+    # print("Done. Check the data folder for scraped data.")
 
-    print(end_time - start_time)
+    # print(end_time - start_time)
 
 
 if __name__ == "__main__":
