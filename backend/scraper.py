@@ -70,36 +70,47 @@ def get_subjects(faculty_data):
 
     for faculty_code, faculty_value in faculty_data.items():
         sleep(DELAY_TIME)
-        faculty_link = faculty_data[faculty_code]["faculty_link"]
-        faculty_page = requests.get(faculty_link).text
-        subject_soup = bs(faculty_page, 'html.parser')
-        subject_div = subject_soup.find('div', {'class': 'col-md-6'})
-        subjects = subject_div.findAll('li')
+        faculty_link = faculty_value["faculty_link"]
+        
+        try:
+            # Get faculty page
+            faculty_page = requests.get(faculty_link, headers={'User-Agent': 'Mozilla/5.0'}).text
+            subject_soup = bs(faculty_page, 'html.parser')
 
-        for subject in subjects:
-            subject_title, subject_link = [str(subject.find('a').text), subject.find('a').get('href')]
-            subject_code, subject_name = subject_title.split(' - ', 1)
-            subject_link = ROOT_URL + subject_link
-            subject_data[subject_code] = {}
-            subject_data[subject_code]["name"] = ''
-            subject_data[subject_code]['link'] = ''
-            subject_data[subject_code]['faculties'] = []
+            subject_container = subject_soup.select_one('div.content > div.container > ul')
+            if not subject_container:
+                print(f"Warning: No subjects found for faculty {faculty_code}")
+                continue
 
-    for faculty_code, faculty_value in faculty_data.items():
-        sleep(DELAY_TIME)
-        faculty_link = faculty_data[faculty_code]["faculty_link"]
-        faculty_page = requests.get(faculty_link).text
-        subject_soup = bs(faculty_page, 'html.parser')
-        subject_div = subject_soup.find('div', {'class': 'col-md-6'})
-        subjects = subject_div.findAll('li')
+            # Get subjects
+            for subject in subject_container.find_all('li'):
+                subject_link = subject.find('a')
+                if not subject_link:
+                    continue
 
-        for subject in subjects:
-            subject_title, subject_link = [str(subject.find('a').text), subject.find('a').get('href')]
-            subject_code, subject_name = subject_title.split(' - ', 1)
-            subject_link = ROOT_URL + subject_link
-            subject_data[subject_code]["name"] = subject_name
-            subject_data[subject_code]["link"] = subject_link
-            subject_data[subject_code]["faculties"].append(faculty_code)
+                subject_title = subject_link.text.strip()
+                subject_url = ROOT_URL + subject_link.get('href')
+
+                if ' - ' in subject_title:
+                    subject_code, subject_name = subject_title.split(' - ', 1)
+                else:
+                    print(f"Warning: Unexpected subject format: {subject_title}")
+                    continue
+
+                # Create subject entry if it doesn't exist yet
+                if subject_code not in subject_data:
+                    subject_data[subject_code] = {
+                        "name": subject_name,
+                        "link": subject_url,
+                        "faculties": []
+                    }
+
+                if faculty_code not in subject_data[subject_code]["faculties"]:
+                    subject_data[subject_code]["faculties"].append(faculty_code)
+
+        except Exception as e:
+            print(f"Error processing faculty {faculty_code}: {str(e)}")
+            continue
 
     write_to_file('subjects', subject_data)
 
@@ -333,13 +344,30 @@ def get_class_schedules(course_data):
 
     write_to_file('class_schedules_5', class_schedules)
 
+def load_from_file(filename):
+    """
+    Loads data from a JSON file.
+    """
+    try:
+        with open(f'data/{filename}.json', 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print(f"Error: {filename}.json not found. Please run the faculty scraper first.")
+        return None
+    except json.JSONDecodeError:
+        print(f"Error: {filename}.json is not valid JSON.")
+        return None
 
 def main():
-    print("Scraping Faculties...")
-    faculty_data = get_faculties()
+    # print("Scraping Faculties...")
+    # faculty_data = get_faculties()
 
-    # print("Scraping Subjects...")
-    # subject_data = get_subjects(faculty_data)
+    faculty_data = load_from_file('faculties')
+    if not faculty_data:
+        return
+
+    print("Scraping Subjects...")
+    subject_data = get_subjects(faculty_data)
 
     # print("Scraping Courses...")
     # course_data = get_courses(subject_data)
