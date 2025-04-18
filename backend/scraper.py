@@ -3,11 +3,45 @@ import json
 import re
 from bs4 import BeautifulSoup as bs
 from time import sleep, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 ROOT_URL = "https://apps.ualberta.ca"
 MAIN_URL = "https://apps.ualberta.ca/catalogue"
 DELAY_TIME = 4
+
+# ==================================================
+import random
+
+MIN_DELAY = 1 
+MAX_DELAY = 3
+MAX_RETRIES = 3 # Maximum number of retries for failed requests
+
+def random_delay():
+    sleep(random.uniform(MIN_DELAY, MAX_DELAY))
+
+def make_request(url):
+    retries = 0
+    while retries < MAX_RETRIES:
+        try:
+            random_delay()  # Add a random delay before each request
+            response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+            response.raise_for_status()
+            return response.text
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 429:  # Too Many Requests
+                retry_after = int(response.headers.get('Retry-After', 5))   # Default to 5 seconds if header is missing
+                print(f"Rate limited. Retrying after {retry_after} seconds...")
+                sleep(retry_after)
+                retries += 1
+            else:
+                print(f"HTTP error: {e}")
+                break
+        except Exception as e:
+            print(f"Error making request: {e}")
+            break
+    return None
+# ============================================================
 
 
 def write_to_file(name_of_file, data):
@@ -126,71 +160,65 @@ def get_courses(subject_data):
     for subject_code, values in subject_data.items():
         sleep(DELAY_TIME)
         subject_url = subject_data[subject_code]["link"]
-        subject_page = requests.get(subject_url).text 
-        course_soup = bs(subject_page, 'html.parser')
-        courses = course_soup.findAll('div', {'class': 'card-body'})
 
-        for course in courses:
-            course_code, course_name = course.find('h4', {'class': 'flex-grow-1'}).text.strip().split('\n')[0].split(' - ', 1)
-            course_link = ROOT_URL + course.find('a').get('href')
-            course_weight = course.find('b').text[2:][:2].strip()
+        try:
+            subject_page = requests.get(subject_url, headers={'User-Agent': 'Mozilla/5.0'}).text
+            course_soup = bs(subject_page, 'html.parser')
 
-            # Code is a bit ugly here because there is a bit of an inconsistecy 
-            # due to the nature of some courses not having some of the data
-            try:
-                course_fee_index = course.find('b').text[2:].split('fi')[1].split(')')[0].strip()
-            except:
-                course_fee_index = None
-            try:
-                course_schedule = courses[0].find('b').text[2:].split('fi')[1].split('(')[1].split(',')[0]
-            except:
-                course_schedule = None        
-            try:            
-                course_description = course.find('p').text.split('Prerequisite')[0]
-            except:
-                course_description = "There is no available course description."
-            try:
-                course_hrs_for_lecture = course.find('b').text[2:].split('fi')[1].split('(')[1].split(',')[1].split('-')[0].strip(' )')
-            except:
-                course_hrs_for_lecture = None
-            try:
-                course_hrs_for_seminar = course.find('b').text[2:].split('fi')[1].split('(')[1].split(',')[1].split('-')[1]
-            except:
-                course_hrs_for_seminar = None
-            try:    
-                course_hrs_for_labtime = course.find('b').text[2:].split('fi')[1].split('(')[1].split(',')[1].split('-')[2].strip(')')
-            except:
-                course_hrs_for_labtime = None
-            try:
-                course_prerequisites = course.find('p').text.split('Prerequisite')[1]
-            except:
-                course_prerequisites = None
+            course_containers = course_soup.select('div.container > div.mb-3.pb-3.border-bottom')
+            if not course_containers:
+                print(f"Warning: No courses found for subject {subject_code}")
+                continue
 
-            # If it is a 100 level class: Junior. Else, Senior.
-            if course_code.split(' ')[1].startswith('1'):
-                course_type = 'Junior'
-            else:
-                course_type = 'Senior'
-            
-            # Get rid of the spaces between courses: CMPUT 404 to CMPUT404
-            course_code = course_code.replace(" ", "")
+            # Get course details
+            for course in course_containers:
+                course_link_tag = course.find('a', href=True)
+                if not course_link_tag:
+                    continue
 
-            course_data[course_code] = {
-                'course_name': course_name,
-                'course_link': course_link,
-                'course_description': course_description,
-                'course_weight': course_weight,
-                'course_fee_index': course_fee_index,
-                'course_schedule': course_schedule,
-                'course_hrs_for_lecture': course_hrs_for_lecture,
-                'course_hrs_for_seminar': course_hrs_for_seminar,
-                'course_hrs_for_labtime': course_hrs_for_labtime,
-                'course_prerequisites': course_prerequisites
-            }
+                course_title = course_link_tag.text.strip()
+                if ' - ' not in course_title:
+                    print(f"Warning: Unexpected course title format: {course_title}")
+                    continue
+
+                course_code, course_name = course_title.split(' - ', 1)
+                course_link = ROOT_URL + course_link_tag['href']
+
+                # Get course weight and description
+                weight_tag = course.find('b')
+                description_tag = course.find('p')
+
+                course_weight = weight_tag.text.strip() if weight_tag else None
+                course_description = description_tag.text.strip() if description_tag else "No description available."
+
+                # Get extra details (if possible)
+                try:
+                    # Ex: "3 units (fi 6)(EITHER, 3-0-3)"
+                    weight_parts = weight_tag.text.split()
+                    course_units = weight_parts[0] if weight_parts else None
+                    course_fee_index = weight_parts[2].strip('()') if len(weight_parts) > 2 else None
+                    course_schedule = weight_parts[3].strip('()') if len(weight_parts) > 3 else None
+                except Exception as e:
+                    print(f"Error parsing course weight for {course_code}: {str(e)}")
+                    course_units = course_fee_index = course_schedule = None
+
+                course_data[course_code] = {
+                    'course_name': course_name,
+                    'course_link': course_link,
+                    'course_description': course_description,
+                    'course_weight': course_weight,
+                    'course_units': course_units,
+                    'course_fee_index': course_fee_index,
+                    'course_schedule': course_schedule,
+                    'subject_code': subject_code
+                }
+
+        except Exception as e:
+            print(f"Error processing subject {subject_code}: {str(e)}")
+            continue
 
     write_to_file('courses', course_data)
     return course_data
-
 
 def get_class_schedules(course_data):
     """
@@ -252,97 +280,116 @@ def get_class_schedules(course_data):
             ...
         }   
     } 
-    """
-    class_schedules = dict()
+    """     
+    class_schedules = {}
+    
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        futures = {
+            executor.submit(process_course, course_code, values['course_link']): course_code
+            for course_code, values in course_data.items()
+        }
+        
+        for future in as_completed(futures):
+            course_code = futures[future]
+            try:
+                result = future.result()
+                if result:  # Ignore unsuccessful scrapes
+                    class_schedules[course_code] = result
+            except Exception as e:
+                print(f"Error processing {course_code}: {str(e)}")
+                class_schedules[course_code] = "error"
+    
+    write_to_file('class_schedules', class_schedules)
+    return class_schedules
 
-    for course_code, values in course_data.items():
-        sleep(DELAY_TIME)
-        course_url = course_data[course_code]["course_link"]
-        course_page = requests.get(course_url).text 
-        course_soup = bs(course_page, 'html.parser')
-        terms = course_soup.findAll('div', {'class': 'card mt-4 dv-card-flat'})
-        print("------------------------------------------------------------------")
-        print(f"Currently at {course_url}. ")
-        print("------------------------------------------------------------------")
-        class_schedules[course_code] = {}
-
-        for term in terms:
-            term_code = term.find('div', {'class': 'card-header m-0 px-3 pt-3 pb-2 bg-white d-flex'}).text.strip("\n") # Winter Term 2021, Fall Term 2021, Spring Term 2021, Summer Term 2021
-            term_code = term_code.replace(" Term ", "")      # Condensed Name: "Fall Term 2021" --> "Fall2021"
-
-            class_schedules[course_code][term_code] = {}
-
-            class_types = term.findAll(lambda tag: tag.name == 'div' and tag.get('class') == ['col-12'])    # List that has the type of formats the course offers (lectures, labs, seminars)
+def process_course(course_code, course_url):
+    """Processes a single course's schedule data"""
+    start_time = time()
+    try:
+        course_page = make_request(course_url)
+        if not course_page:
+            return None
             
-            for class_type in class_types:
-                class_type_name = class_type.find('h3', {'class': 'mt-2 d-none d-md-block'}).text      # Lecture, Seminar or Lab
-                class_schedules[course_code][term_code][class_type_name] = []
-                
-                
-                offered_classes = class_type.findAll('div', {'class': 'col-lg-4 col-12 pb-3'})
+        course_soup = bs(course_page, 'html.parser')
+        
+        # Check if not offered
+        warning = course_soup.find('div', class_='alert alert-warning')
+        if warning and "no scheduled offerings" in warning.text.lower():
+            duration = time() - start_time
+            print(f"Scraped {course_code} (not offered) in {duration:.2f}s")
+            return "not offered"
+        
+        course_data = {}
+        term_sections = course_soup.select('div.container > div.mb-5')
+        
+        if not term_sections:
+            print(f"Warning: No term sections found for {course_code}")
+            return None
 
-                for classes in offered_classes:
+        for term in term_sections:
+            term_name = term.find('h2').text.strip()
+            term_key = term_name.replace(" Term ", "")
+            course_data[term_key] = {}
+
+            for heading in term.find_all('h3'):
+                class_type = heading.text.strip().capitalize()
+                course_data[term_key][class_type] = []
+                table = heading.find_next('table')
+                
+                if not table:
+                    continue
+
+                for row in table.select('tbody > tr'):
                     class_info = {}
-
-                    class_code_and_name = classes.find('strong', {'class': 'mb-0 mt-4'}).text.strip('\n')
-                    class_code = re.search(r"\(([A-Za-z0-9_]+)\)", class_code_and_name).group(1)    # Gets the value inside the paranthesis
-                    class_name = class_code_and_name.replace(f'({class_code})', '').strip(' ').strip('\n').strip(' ')
-
-                    ems = classes.findAll('em')
-                    try:
-                        capacity = ems[0].text.strip("Capacity: ")
-                    except:
-                        capacity = 'NA'
-                    try:
-                        date_time_room_data = ems[1].text.strip("\n")
-                    except:
-                        date_time_room_Data = 'NA'
-                    try:
-                        start_date, end_date = re.findall(r"(\d+-\d+-\d+)", date_time_room_data)
-                    except:
-                        start_date, end_date = ['NA', 'NA']
-                    try:
-                        start_time, end_time = re.findall(r"(\d+:\d+)", date_time_room_data)
-                    except:
-                        start_time, end_time = ['NA', 'NA']
-                    try:
-                        room = re.search(r"\((.*?)\)", date_time_room_data).group(1)
-                    except:
-                        room = 'NA'
-                    if len(ems) == 3:   # If Primary Instructor field is provided
-                        try:
-                            primary_instructor = ems[2].find('a').text
-                            primary_instructor_link = ems[2].find('a').get('href')
-                        except:
-                            primary_instructor = 'NA'
-                            primary_instructor_link = 'NA'
-                    else:
-                        primary_instructor = 'TBD'
-                        primary_instructor_link = 'TBD'
                     
-                    try:
-                        pattern = "\n(.*?)\d+"
-                        days = re.search(pattern, date_time_room_data).group(1)
-                        days = list(days.strip(" "))
-                    except:
-                        days = 'NA'
+                    # Section and Code
+                    section_cell = row.find('td', {'data-card-title': 'Section'})
+                    if section_cell:
+                        section_text = section_cell.text.strip()
+                        class_info["section"] = section_text.split('(')[0].strip()
+                        class_info["code"] = section_text.split('(')[1].strip(')')
 
+                    # Capacity
+                    capacity_cell = row.find('td', {'data-card-title': 'Capacity'})
+                    if capacity_cell:
+                        class_info["capacity"] = capacity_cell.text.strip()
 
-                    class_info["class_code"] = class_code
-                    class_info["class_name"] = class_name 
-                    class_info["capacity"] = capacity
-                    class_info["days"] = days
-                    class_info["start_date"] = start_date
-                    class_info["end_date"] = end_date
-                    class_info["start_time"] = start_time
-                    class_info["end_time"] = end_time
-                    class_info["room"] = room
-                    class_info["primary_instructor"] = primary_instructor
-                    class_info["primary_instructor_link"] = primary_instructor_link
+                    # Class Times
+                    times_cell = row.find('td', {'data-card-title': 'Class times'})
+                    if times_cell:
+                        day_time_pairs = []
+                        current_days = None
+                        
+                        for time_part in times_cell.select('.col'):
+                            if time_part.find('span', class_='fa-calendar'):
+                                date_text = time_part.text.strip()
+                                days_match = re.search(r"\(([A-Za-z]+)\)", date_text)
+                                if days_match:
+                                    current_days = days_match.group(1)
+                            
+                            elif time_part.find('span', class_='fa-clock') and current_days:
+                                time_text = time_part.text.strip()
+                                times = re.findall(r"\d{2}:\d{2}", time_text)
+                                if len(times) == 2:
+                                    day_time_pairs.append({
+                                        "days": current_days,
+                                        "start_time": times[0],
+                                        "end_time": times[1]
+                                    })
+                                current_days = None
 
-                    class_schedules[course_code][term_code][class_type_name].append(class_info)
+                        if day_time_pairs:
+                            class_info["day_time_pairs"] = day_time_pairs
 
-    write_to_file('class_schedules_5', class_schedules)
+                    course_data[term_key][class_type].append(class_info)
+
+        duration = time() - start_time
+        print(f"Scraped {course_code} in {duration:.2f}s")
+        return course_data
+
+    except Exception as e:
+        print(f"Error in {course_code}: {str(e)}")
+        raise
 
 def load_from_file(filename):
     """
@@ -362,21 +409,19 @@ def main():
     # print("Scraping Faculties...")
     # faculty_data = get_faculties()
 
-    faculty_data = load_from_file('faculties')
-    if not faculty_data:
-        return
-
-    print("Scraping Subjects...")
-    subject_data = get_subjects(faculty_data)
+    # print("Scraping Subjects...")
+    # subject_data = get_subjects(faculty_data)
 
     # print("Scraping Courses...")
     # course_data = get_courses(subject_data)
 
-    # print("Scraping Class Schedules...")
-    # class_schedules = get_class_schedules(course_data)
-    # print("Done. Check the data folder for scraped data.")
+    course_data = load_from_file('courses')
+    if not course_data:
+        return
 
-    # print(end_time - start_time)
+    print("Scraping Class Schedules...")
+    class_schedules = get_class_schedules(course_data)
+    print("Done. Check the data folder for scraped data.")
 
 
 if __name__ == "__main__":
