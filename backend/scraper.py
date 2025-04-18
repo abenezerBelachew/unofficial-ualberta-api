@@ -1,3 +1,4 @@
+import random
 import requests
 import json
 import re
@@ -5,13 +6,9 @@ from bs4 import BeautifulSoup as bs
 from time import sleep, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-
 ROOT_URL = "https://apps.ualberta.ca"
 MAIN_URL = "https://apps.ualberta.ca/catalogue"
 DELAY_TIME = 4
-
-# ==================================================
-import random
 
 MIN_DELAY = 1 
 MAX_DELAY = 3
@@ -20,28 +17,33 @@ MAX_RETRIES = 3 # Maximum number of retries for failed requests
 def random_delay():
     sleep(random.uniform(MIN_DELAY, MAX_DELAY))
 
+SESSION = requests.Session()
+SESSION.headers.update({'User-Agent': 'Mozilla/5.0'})
+
 def make_request(url):
     retries = 0
     while retries < MAX_RETRIES:
         try:
-            random_delay()  # Add a random delay before each request
-            response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
+            random_delay()
+            response = SESSION.get(url) # Use the shared session
             response.raise_for_status()
             return response.text
+            
         except requests.exceptions.HTTPError as e:
-            if response.status_code == 429:  # Too Many Requests
-                retry_after = int(response.headers.get('Retry-After', 5))   # Default to 5 seconds if header is missing
+            if hasattr(e.response, 'status_code') and e.response.status_code == 429:
+                retry_after = int(e.response.headers.get('Retry-After', 5))
                 print(f"Rate limited. Retrying after {retry_after} seconds...")
                 sleep(retry_after)
                 retries += 1
             else:
                 print(f"HTTP error: {e}")
                 break
+                
         except Exception as e:
             print(f"Error making request: {e}")
             break
+            
     return None
-# ============================================================
 
 
 def write_to_file(name_of_file, data):
@@ -283,7 +285,7 @@ def get_class_schedules(course_data):
     """     
     class_schedules = {}
     
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {
             executor.submit(process_course, course_code, values['course_link']): course_code
             for course_code, values in course_data.items()
