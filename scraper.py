@@ -515,23 +515,30 @@ def load_from_file(filename):
         return None
 
 def main():
+    '''
+    Uncomment any of the blocks below to update a specific json data file (faculties, subjects, courses, class_schedules)
+    '''
+
     # print("Scraping Faculties...")
     # faculty_data = get_faculties()
 
+    # faculty_data = load_from_file('faculties')
+    # if not faculty_data:
+    #     return
     # print("Scraping Subjects...")
     # subject_data = get_subjects(faculty_data)
 
-    print("Scraping Courses...")
-    subject_data = load_from_file('subjects')
-    course_data = get_courses(subject_data)
+    # subject_data = load_from_file('subjects')
+    # if not subject_data:
+    #     return
+    # print("Scraping Courses...")
+    # course_data = get_courses(subject_data)
 
     # course_data = load_from_file('courses')
     # if not course_data:
     #     return
-
     # print("Scraping Class Schedules...")
     # class_schedules = get_class_schedules(course_data)
-    # print("Done. Check the data folder for scraped data.")
 
 if __name__ == "__main__":
     main()
