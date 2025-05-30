@@ -1,21 +1,19 @@
 # Unofficial University of Alberta API
 
-### This is just a fun personal project I made to test FastAPI. It's not affiliated with the University of Alberta.
+### This project provides an unofficial API for accessing the University of Alberta faculty, subject, course, and class schedules from its official course catalogue through web scraping. Originally built by [@abenezerBelachew](https://github.com/abenezerBelachew), this fork allows the scraper to function with the updated HTML layout of the course catalogue website, and significantly updates the project by upgrading dependencies to current versions, optimizing scraping with parallel threads, and replacing outdated data with a new, reformatted dataset.
 
-<p>
-Inspired by UWaterloo's API (https://openapi.data.uwaterloo.ca/api-docs/index.html), I made a somewhat similar API for U of Alberta. I couldn't get as many endpoints as  UWaterloo's because I don't have access to UAlberta's databases so I've scraped what was available online. 
-</p>
-<p>
-I've tried to balance the over-fetching and under-fetching of data by allowing user to query based on different variables in their endpoints. To keep it simple, I have used a JSON file to store the scraped data. Getting what you need from the scraped data should be as simple as calling keys from a dictionary.
-</p>
-<p>
-There were over 10k pages to scrap so if you're going to run scraper.py it's going to take a while if DELAY_TIME is not changed. I suggest not to change it to avoid hitting U of A's servers too much.
-</p>
+## What's New in This Fork
+
+- ✅ Updated all Python dependencies to latest secure/compatible versions.
+- ⚡ Significantly improved scraping speed via multithreading (parallel requests).
+- 🧹 Cleaned and reformatted data collection.
+- 📦 Replaced outdated scraped data with newly refreshed data for faculties, subjects, and courses.
+- 🛠 Fixed scraper to work with the current version of the University of ALberta course catalogue HTML layout.
 
 ## Data
 - 20 Faculties
-- 315 Subjects
-- 10114 Courses
+- 327 Subjects
+- 10014 Courses
 
 ## Screenshots
 ![App Screenshot](https://www.abenezerbelachew.com/static/images/projects/ualbertaapi.gif)
@@ -34,7 +32,6 @@ Install locally
   uvicorn main:app --reload or python main.py
 ```
 Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
-
 
 # API Reference
 
@@ -82,9 +79,7 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | :-------- | :------- | :-------------------------------- |
 | `subject_code`      | `string` | The Subject Code (E.g. BIOEN for Bioresource Engineering) |
 
-
 <!-- ----------------------------------------------------------- -->
-
 
 ## Courses
 ### Get Courses
@@ -107,11 +102,7 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | :-------- | :------- | :-------------------------------- |
 | `course_code`      | `string` | The Course Code (E.g. CHEM102 for Introductory University Chemistry II) |
 
-
-
-
 <!-- ----------------------------------------------------------- -->
-
 
 ## Class Schedules
 ### Get all class schedules
@@ -134,7 +125,6 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | :-------- | :------- | :-------------------------------- |
 | `course_code`      | `string` | The Course Code (E.g. MATH322 for Graph Theory) |
 
-
 ### Get specific class schedule for a course in a specific term
 
 ```http
@@ -145,7 +135,6 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | :-------- | :------- | :-------------------------------- |
 | `course_code`      | `string` | The Course Code (E.g. MATH322 for Graph Theory) |
 | `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
-
 
 ### Get lecture class schedule for a course in a specific term 
 
@@ -159,7 +148,6 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | `course_code`      | `string` | The Course Code (E.g. MATH322 for Graph Theory) |
 | `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
 
-
 ### Get lab class schedule for a course in a specific term 
 
 ```http
@@ -171,7 +159,6 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | - | - | Gets the lab section of a specific course in a specific term|
 | `course_code`      | `string` | The Course Code (E.g. CMPUT404 for Web Applications and Architecture) |
 | `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
-
 
 ### Get seminar class schedule for a course in a specific term 
 
@@ -185,10 +172,10 @@ Go to http://127.0.0.1:8000 [or whichever port Uvicorn says it is running on].
 | `course_code`      | `string` | The Course Code (E.g. CMPUT204 for Algorithms I) |
 | `term_code`      | `string` | The Term Code (E.g. Fall2021 for Fall 2021) |
 
+## Acknowledgments
 
-
-
-
+- Original project by [@abenezerBelachew](https://github.com/abenezerBelachew)
+- Fork updated and maintained by [@mahughes23](https://github.com/mahughes23)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
