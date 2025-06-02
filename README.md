@@ -1,6 +1,6 @@
 # Unofficial University of Alberta API
 
-### This project provides an unofficial API for accessing the University of Alberta faculty, subject, course, and class schedules from its official course catalogue through web scraping. Originally built by [@abenezerBelachew](https://github.com/abenezerBelachew), this fork allows the scraper to function with the updated HTML layout of the course catalogue website, and significantly updates the project by upgrading dependencies to current versions, optimizing scraping with parallel threads, and replacing outdated data with a new, reformatted dataset.
+This project provides an unofficial API for accessing the University of Alberta faculty, subject, course, and class schedules from its official course catalogue through web scraping. Originally built by [@abenezerBelachew](https://github.com/abenezerBelachew), this fork allows the scraper to function with the updated HTML layout of the course catalogue website, and significantly updates the project by upgrading dependencies to current versions, optimizing scraping with parallel threads, and replacing outdated data with a new, reformatted dataset.
 
 ## What's New in This Fork
 
