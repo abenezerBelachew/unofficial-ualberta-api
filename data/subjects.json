@@ -1,1577 +1,2312 @@
 {
-    "AFNS": {
-        "name": "Agricultural, Food and Nutritional Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/afns",
-        "faculties": ["AH"]
-    },
-    "ALES": {
-        "name": "Agricultural, Life and Environmental Sciences",
-        "link": "https://apps.ualberta.ca/catalogue/course/ales",
-        "faculties": ["AH"]
-    },
-    "AN SC": {
-        "name": "Animal Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/an_sc",
-        "faculties": ["AH"]
-    },
-    "AREC": {
-        "name": "Agricultural and Resource Economics",
-        "link": "https://apps.ualberta.ca/catalogue/course/arec",
-        "faculties": ["AH"]
-    },
-    "BIOEN": {
-        "name": "Bioresource Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/bioen",
-        "faculties": ["AH"]
-    },
-    "ENCS": {
-        "name": "Environmental and Conservation Sciences",
-        "link": "https://apps.ualberta.ca/catalogue/course/encs",
-        "faculties": ["AH"]
-    },
-    "EXALES": {
-        "name": "CE - Agricultural Life & Environmental Sciences",
-        "link": "https://apps.ualberta.ca/catalogue/course/exales",
-        "faculties": ["AH"]
-    },
-    "FOREC": {
-        "name": "Forest Economics",
-        "link": "https://apps.ualberta.ca/catalogue/course/forec",
-        "faculties": ["AH"]
-    },
-    "HECOL": {
-        "name": "Human Ecology",
-        "link": "https://apps.ualberta.ca/catalogue/course/hecol",
-        "faculties": ["AH"]
-    },
-    "INT D": {
-        "name": "Interdisciplinary Undergraduate & Graduate Courses",
-        "link": "https://apps.ualberta.ca/catalogue/course/int_d",
-        "faculties": ["AH", "AR", "BC", "ED", "EX", "GS", "MH", "NU", "PE", "PH", "PS", "RM", "SC"]
-    },
-    "NU FS": {
-        "name": "Nutrition and Food Sciences",
-        "link": "https://apps.ualberta.ca/catalogue/course/nu_fs",
-        "faculties": ["AH"]
-    },
-    "NUTR": {
-        "name": "Nutrition",
-        "link": "https://apps.ualberta.ca/catalogue/course/nutr",
-        "faculties": ["AH"]
-    },
-    "PL SC": {
-        "name": "Plant Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/pl_sc",
-        "faculties": ["AH"]
-    },
-    "R SOC": {
-        "name": "Rural Sociology",
-        "link": "https://apps.ualberta.ca/catalogue/course/r_soc",
-        "faculties": ["AH"]
-    },
-    "REN R": {
-        "name": "Renewable Resources",
-        "link": "https://apps.ualberta.ca/catalogue/course/ren_r",
-        "faculties": ["AH"]
-    },
-    "SUST": {
-        "name": "Sustainability",
-        "link": "https://apps.ualberta.ca/catalogue/course/sust",
-        "faculties": ["AH"]
-    },
-    "UNIV": {
-        "name": "University",
-        "link": "https://apps.ualberta.ca/catalogue/course/univ",
-        "faculties": ["AH"]
-    },
-    "WKEXP": {
-        "name": "Work Experience",
-        "link": "https://apps.ualberta.ca/catalogue/course/wkexp",
-        "faculties": ["AH", "AR", "BC", "EN", "SC"]
-    },
-    "ANTHR": {
-        "name": "Anthropology",
-        "link": "https://apps.ualberta.ca/catalogue/course/anthr",
-        "faculties": ["AR"]
-    },
-    "ARAB": {
-        "name": "Arabic",
-        "link": "https://apps.ualberta.ca/catalogue/course/arab",
-        "faculties": ["AR"]
-    },
-    "ART": {
-        "name": "Art",
-        "link": "https://apps.ualberta.ca/catalogue/course/art",
-        "faculties": ["AR"]
-    },
-    "ASL": {
-        "name": "American Sign Language",
-        "link": "https://apps.ualberta.ca/catalogue/course/asl",
-        "faculties": ["AR"]
-    },
-    "C LIT": {
-        "name": "Comparative Literature",
-        "link": "https://apps.ualberta.ca/catalogue/course/c_lit",
-        "faculties": ["AR"]
-    },
-    "CHINA": {
-        "name": "Chinese",
-        "link": "https://apps.ualberta.ca/catalogue/course/china",
-        "faculties": ["AR"]
-    },
-    "CHRTC": {
-        "name": "Christian Theology at St Joseph's College",
-        "link": "https://apps.ualberta.ca/catalogue/course/chrtc",
-        "faculties": ["AR"]
-    },
-    "CLASS": {
-        "name": "Classics",
-        "link": "https://apps.ualberta.ca/catalogue/course/class",
-        "faculties": ["AR"]
-    },
-    "COMM": {
-        "name": "Communications and Technology",
-        "link": "https://apps.ualberta.ca/catalogue/course/comm",
-        "faculties": ["AR"]
-    },
-    "CSL": {
-        "name": "Community Service-Learning",
-        "link": "https://apps.ualberta.ca/catalogue/course/csl",
-        "faculties": ["AR"]
-    },
-    "DES": {
-        "name": "Design",
-        "link": "https://apps.ualberta.ca/catalogue/course/des",
-        "faculties": ["AR"]
-    },
-    "DH": {
-        "name": "Digital Humanities",
-        "link": "https://apps.ualberta.ca/catalogue/course/dh",
-        "faculties": ["AR"]
-    },
-    "DRAMA": {
-        "name": "Drama",
-        "link": "https://apps.ualberta.ca/catalogue/course/drama",
-        "faculties": ["AR"]
-    },
-    "EASIA": {
-        "name": "East Asian Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/easia",
-        "faculties": ["AR"]
-    },
-    "ECON": {
-        "name": "Economics",
-        "link": "https://apps.ualberta.ca/catalogue/course/econ",
-        "faculties": ["AR"]
-    },
-    "ENGL": {
-        "name": "English",
-        "link": "https://apps.ualberta.ca/catalogue/course/engl",
-        "faculties": ["AR"]
-    },
-    "FOLK": {
-        "name": "Folklore",
-        "link": "https://apps.ualberta.ca/catalogue/course/folk",
-        "faculties": ["AR"]
-    },
-    "FREN": {
-        "name": "French Language and Literature",
-        "link": "https://apps.ualberta.ca/catalogue/course/fren",
-        "faculties": ["AR"]
-    },
-    "FS": {
-        "name": "Film Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/fs",
-        "faculties": ["AR"]
-    },
-    "GERM": {
-        "name": "German",
-        "link": "https://apps.ualberta.ca/catalogue/course/germ",
-        "faculties": ["AR"]
-    },
-    "GREEK": {
-        "name": "Greek",
-        "link": "https://apps.ualberta.ca/catalogue/course/greek",
-        "faculties": ["AR"]
-    },
-    "GSJ": {
-        "name": "Gender and Social Justice",
-        "link": "https://apps.ualberta.ca/catalogue/course/gsj",
-        "faculties": ["AR"]
-    },
-    "HADVC": {
-        "name": "History of Art, Design, and Visual Culture",
-        "link": "https://apps.ualberta.ca/catalogue/course/hadvc",
-        "faculties": ["AR"]
-    },
-    "HEBR": {
-        "name": "Hebrew",
-        "link": "https://apps.ualberta.ca/catalogue/course/hebr",
-        "faculties": ["AR"]
-    },
-    "HGEO": {
-        "name": "Human Geography",
-        "link": "https://apps.ualberta.ca/catalogue/course/hgeo",
-        "faculties": ["AR"]
-    },
-    "HGP": {
-        "name": "Human Geography and Planning",
-        "link": "https://apps.ualberta.ca/catalogue/course/hgp",
-        "faculties": ["AR"]
-    },
-    "HINDI": {
-        "name": "Hindi",
-        "link": "https://apps.ualberta.ca/catalogue/course/hindi",
-        "faculties": ["AR"]
-    },
-    "HIST": {
-        "name": "History",
-        "link": "https://apps.ualberta.ca/catalogue/course/hist",
-        "faculties": ["AR"]
-    },
-    "ITAL": {
-        "name": "Italian",
-        "link": "https://apps.ualberta.ca/catalogue/course/ital",
-        "faculties": ["AR"]
-    },
-    "JAPAN": {
-        "name": "Japanese",
-        "link": "https://apps.ualberta.ca/catalogue/course/japan",
-        "faculties": ["AR"]
-    },
-    "KOREA": {
-        "name": "Korean",
-        "link": "https://apps.ualberta.ca/catalogue/course/korea",
-        "faculties": ["AR"]
-    },
-    "LA ST": {
-        "name": "Latin American Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/la_st",
-        "faculties": ["AR"]
-    },
-    "LATIN": {
-        "name": "Latin",
-        "link": "https://apps.ualberta.ca/catalogue/course/latin",
-        "faculties": ["AR"]
-    },
-    "LING": {
-        "name": "Linguistics",
-        "link": "https://apps.ualberta.ca/catalogue/course/ling",
-        "faculties": ["AR"]
-    },
-    "MEAS": {
-        "name": "Middle Eastern and African Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/meas",
-        "faculties": ["AR"]
-    },
-    "MLCS": {
-        "name": "Modern Languages and Cultural Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/mlcs",
-        "faculties": ["AR"]
-    },
-    "MST": {
-        "name": "Media Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/mst",
-        "faculties": ["AR"]
-    },
-    "MUSIC": {
-        "name": "Music",
-        "link": "https://apps.ualberta.ca/catalogue/course/music",
-        "faculties": ["AR"]
-    },
-    "NORSE": {
-        "name": "Old Norse",
-        "link": "https://apps.ualberta.ca/catalogue/course/norse",
-        "faculties": ["AR"]
-    },
-    "NORW": {
-        "name": "Norwegian",
-        "link": "https://apps.ualberta.ca/catalogue/course/norw",
-        "faculties": ["AR"]
-    },
-    "PHIL": {
-        "name": "Philosophy",
-        "link": "https://apps.ualberta.ca/catalogue/course/phil",
-        "faculties": ["AR"]
-    },
-    "PLAN": {
-        "name": "Urban and Regional Planning",
-        "link": "https://apps.ualberta.ca/catalogue/course/plan",
-        "faculties": ["AR", "SC"]
-    },
-    "POL S": {
-        "name": "Political Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/pol_s",
-        "faculties": ["AR"]
-    },
-    "POLSH": {
-        "name": "Polish",
-        "link": "https://apps.ualberta.ca/catalogue/course/polsh",
-        "faculties": ["AR"]
-    },
-    "PORT": {
-        "name": "Portuguese",
-        "link": "https://apps.ualberta.ca/catalogue/course/port",
-        "faculties": ["AR"]
-    },
-    "PSYCO": {
-        "name": "Psychology",
-        "link": "https://apps.ualberta.ca/catalogue/course/psyco",
-        "faculties": ["AR", "SC"]
-    },
-    "PUNJ": {
-        "name": "Punjabi",
-        "link": "https://apps.ualberta.ca/catalogue/course/punj",
-        "faculties": ["AR"]
-    },
-    "RELIG": {
-        "name": "Religious Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/relig",
-        "faculties": ["AR"]
-    },
-    "RUSS": {
-        "name": "Russian",
-        "link": "https://apps.ualberta.ca/catalogue/course/russ",
-        "faculties": ["AR"]
-    },
-    "SANSK": {
-        "name": "Sanskrit",
-        "link": "https://apps.ualberta.ca/catalogue/course/sansk",
-        "faculties": ["AR"]
-    },
-    "SCAND": {
-        "name": "Scandinavian",
-        "link": "https://apps.ualberta.ca/catalogue/course/scand",
-        "faculties": ["AR"]
-    },
-    "SLAV": {
-        "name": "Slavic and East European Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/slav",
-        "faculties": ["AR"]
-    },
-    "SOC": {
-        "name": "Sociology",
-        "link": "https://apps.ualberta.ca/catalogue/course/soc",
-        "faculties": ["AR"]
-    },
-    "SPAN": {
-        "name": "Spanish",
-        "link": "https://apps.ualberta.ca/catalogue/course/span",
-        "faculties": ["AR"]
-    },
-    "SPRIT": {
-        "name": "Spirituality and Multi-Faith Theologies",
-        "link": "https://apps.ualberta.ca/catalogue/course/sprit",
-        "faculties": ["AR", "SS"]
-    },
-    "STS": {
-        "name": "Science, Technology, and Society",
-        "link": "https://apps.ualberta.ca/catalogue/course/sts",
-        "faculties": ["AR"]
-    },
-    "SWED": {
-        "name": "Swedish",
-        "link": "https://apps.ualberta.ca/catalogue/course/swed",
-        "faculties": ["AR"]
-    },
-    "T DES": {
-        "name": "Theatre Design",
-        "link": "https://apps.ualberta.ca/catalogue/course/t_des",
-        "faculties": ["AR"]
-    },
-    "UKR": {
-        "name": "Ukrainian",
-        "link": "https://apps.ualberta.ca/catalogue/course/ukr",
-        "faculties": ["AR"]
-    },
-    "WGS": {
-        "name": "Women's and Gender Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/wgs",
-        "faculties": ["AR"]
-    },
-    "WRITE": {
-        "name": "Write (Creative Writing)",
-        "link": "https://apps.ualberta.ca/catalogue/course/write",
-        "faculties": ["AR"]
-    },
-    "WRS": {
-        "name": "Writing Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/wrs",
-        "faculties": ["AR"]
-    },
     "AUACC": {
         "name": "Augustana Faculty - Accounting",
         "link": "https://apps.ualberta.ca/catalogue/course/auacc",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUART": {
         "name": "Augustana Faculty - Art",
         "link": "https://apps.ualberta.ca/catalogue/course/auart",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUBIO": {
         "name": "Augustana Faculty - Biology",
         "link": "https://apps.ualberta.ca/catalogue/course/aubio",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUCHE": {
         "name": "Augustana Faculty - Chemistry",
         "link": "https://apps.ualberta.ca/catalogue/course/auche",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUCLA": {
         "name": "Augustana Faculty - Classical Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/aucla",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUCRI": {
         "name": "Augustana Faculty - Crime and Community",
         "link": "https://apps.ualberta.ca/catalogue/course/aucri",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUCSC": {
         "name": "Augustana Faculty - Computing Science",
         "link": "https://apps.ualberta.ca/catalogue/course/aucsc",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUCSL": {
         "name": "Augustana Faculty - Community Service Learning",
         "link": "https://apps.ualberta.ca/catalogue/course/aucsl",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUDRA": {
         "name": "Augustana Faculty - Drama",
         "link": "https://apps.ualberta.ca/catalogue/course/audra",
-        "faculties": ["AU"]
-    },
-    "AUEAP": {
-        "name": "Augustana Faculty - English for Academic Purposes",
-        "link": "https://apps.ualberta.ca/catalogue/course/aueap",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUECO": {
         "name": "Augustana Faculty - Economics",
         "link": "https://apps.ualberta.ca/catalogue/course/aueco",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUEDC": {
         "name": "Augustana Faculty - Educational Computing",
         "link": "https://apps.ualberta.ca/catalogue/course/auedc",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUEFX": {
         "name": "Augustana Faculty - Education Field Experience",
         "link": "https://apps.ualberta.ca/catalogue/course/auefx",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUENG": {
         "name": "Augustana Faculty - English",
         "link": "https://apps.ualberta.ca/catalogue/course/aueng",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUENV": {
         "name": "Augustana Faculty - Environmental Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/auenv",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUEPS": {
         "name": "Augustana Faculty - Educational Psychology",
         "link": "https://apps.ualberta.ca/catalogue/course/aueps",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUFAR": {
         "name": "Augustana Faculty - Fine Arts",
         "link": "https://apps.ualberta.ca/catalogue/course/aufar",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUFRE": {
         "name": "Augustana Faculty - French",
         "link": "https://apps.ualberta.ca/catalogue/course/aufre",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUGDS": {
         "name": "Augustana Faculty - Global and Development Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/augds",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUGEO": {
         "name": "Augustana Faculty - Geography",
         "link": "https://apps.ualberta.ca/catalogue/course/augeo",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUGER": {
         "name": "Augustana Faculty - German",
         "link": "https://apps.ualberta.ca/catalogue/course/auger",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUHIS": {
         "name": "Augustana Faculty - History",
         "link": "https://apps.ualberta.ca/catalogue/course/auhis",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUHUM": {
         "name": "Augustana Faculty - Humanities",
         "link": "https://apps.ualberta.ca/catalogue/course/auhum",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUIDS": {
         "name": "Augustana Faculty - Interdisciplinary Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/auids",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUIND": {
         "name": "Augustana Faculty - Indigenous Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/auind",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AULAN": {
         "name": "Augustana Faculty - Language Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/aulan",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AULAT": {
         "name": "Augustana Faculty - Latin",
         "link": "https://apps.ualberta.ca/catalogue/course/aulat",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUMAT": {
         "name": "Augustana Faculty - Mathematics",
         "link": "https://apps.ualberta.ca/catalogue/course/aumat",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUMGT": {
         "name": "Augustana Faculty - Management",
         "link": "https://apps.ualberta.ca/catalogue/course/aumgt",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUMUS": {
         "name": "Augustana Faculty - Music",
         "link": "https://apps.ualberta.ca/catalogue/course/aumus",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUPAC": {
         "name": "Augustana Faculty - Physical Activity",
         "link": "https://apps.ualberta.ca/catalogue/course/aupac",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUPED": {
         "name": "Augustana Faculty - Physical Education",
         "link": "https://apps.ualberta.ca/catalogue/course/auped",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUPHI": {
         "name": "Augustana Faculty - Philosophy",
         "link": "https://apps.ualberta.ca/catalogue/course/auphi",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUPHY": {
         "name": "Augustana Faculty - Physics",
         "link": "https://apps.ualberta.ca/catalogue/course/auphy",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUPOL": {
         "name": "Augustana Faculty - Political Studies",
         "link": "https://apps.ualberta.ca/catalogue/course/aupol",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUPSY": {
         "name": "Augustana Faculty - Psychology",
         "link": "https://apps.ualberta.ca/catalogue/course/aupsy",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUREL": {
         "name": "Augustana Faculty - Religion",
         "link": "https://apps.ualberta.ca/catalogue/course/aurel",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUSCA": {
         "name": "Augustana Faculty - Scandinavian",
         "link": "https://apps.ualberta.ca/catalogue/course/ausca",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUSCI": {
         "name": "Augustana Faculty - Science",
         "link": "https://apps.ualberta.ca/catalogue/course/ausci",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUSOC": {
         "name": "Augustana Faculty - Sociology",
         "link": "https://apps.ualberta.ca/catalogue/course/ausoc",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUSPA": {
         "name": "Augustana Faculty - Spanish",
         "link": "https://apps.ualberta.ca/catalogue/course/auspa",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUSSC": {
         "name": "Augustana Faculty - Social Sciences",
         "link": "https://apps.ualberta.ca/catalogue/course/aussc",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
     "AUSTA": {
         "name": "Augustana Faculty - Statistics",
         "link": "https://apps.ualberta.ca/catalogue/course/austa",
-        "faculties": ["AU"]
+        "faculties": [
+            "AU"
+        ]
     },
-    "ACCTG": {
-        "name": "Accounting",
-        "link": "https://apps.ualberta.ca/catalogue/course/acctg",
-        "faculties": ["BC"]
+    "AFNS": {
+        "name": "Agricultural, Food and Nutritional Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/afns",
+        "faculties": [
+            "AH"
+        ]
     },
-    "B LAW": {
-        "name": "Business Law",
-        "link": "https://apps.ualberta.ca/catalogue/course/b_law",
-        "faculties": ["BC"]
+    "ALES": {
+        "name": "Agricultural, Life and Environmental Sciences",
+        "link": "https://apps.ualberta.ca/catalogue/course/ales",
+        "faculties": [
+            "AH"
+        ]
     },
-    "BTM": {
-        "name": "Business Technology Mangement",
-        "link": "https://apps.ualberta.ca/catalogue/course/btm",
-        "faculties": ["BC"]
+    "AN SC": {
+        "name": "Animal Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/an_sc",
+        "faculties": [
+            "AH"
+        ]
     },
-    "BUEC": {
-        "name": "Business Economics",
-        "link": "https://apps.ualberta.ca/catalogue/course/buec",
-        "faculties": ["BC"]
+    "AREC": {
+        "name": "Agricultural and Resource Economics",
+        "link": "https://apps.ualberta.ca/catalogue/course/arec",
+        "faculties": [
+            "AH"
+        ]
     },
-    "BUS": {
-        "name": "Business",
-        "link": "https://apps.ualberta.ca/catalogue/course/bus",
-        "faculties": ["BC"]
+    "BIOEN": {
+        "name": "Bioresource Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/bioen",
+        "faculties": [
+            "AH"
+        ]
     },
-    "FIN": {
-        "name": "Finance",
-        "link": "https://apps.ualberta.ca/catalogue/course/fin",
-        "faculties": ["BC"]
+    "ENCS": {
+        "name": "Environmental and Conservation Sciences",
+        "link": "https://apps.ualberta.ca/catalogue/course/encs",
+        "faculties": [
+            "AH"
+        ]
     },
-    "MARK": {
-        "name": "Marketing",
-        "link": "https://apps.ualberta.ca/catalogue/course/mark",
-        "faculties": ["BC"]
+    "EXALES": {
+        "name": "CE - Agricultural Life & Environmental Sciences",
+        "link": "https://apps.ualberta.ca/catalogue/course/exales",
+        "faculties": [
+            "AH"
+        ]
     },
-    "MGTSC": {
-        "name": "Management Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/mgtsc",
-        "faculties": ["BC"]
+    "FOREC": {
+        "name": "Forest Economics",
+        "link": "https://apps.ualberta.ca/catalogue/course/forec",
+        "faculties": [
+            "AH"
+        ]
     },
-    "MIS": {
-        "name": "Management Information Systems",
-        "link": "https://apps.ualberta.ca/catalogue/course/mis",
-        "faculties": ["BC"]
+    "HECOL": {
+        "name": "Human Ecology",
+        "link": "https://apps.ualberta.ca/catalogue/course/hecol",
+        "faculties": [
+            "AH"
+        ]
     },
-    "OM": {
-        "name": "Operations Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/om",
-        "faculties": ["BC"]
+    "INT D": {
+        "name": "Interdisciplinary Undergraduate & Graduate Courses",
+        "link": "https://apps.ualberta.ca/catalogue/course/int_d",
+        "faculties": [
+            "AH",
+            "BC",
+            "EX",
+            "ED",
+            "EN",
+            "AR",
+            "GS",
+            "NU",
+            "MH",
+            "PH",
+            "PE",
+            "PS",
+            "SC",
+            "RM"
+        ]
     },
-    "SEM": {
-        "name": "Strategy, Entrepreneurship and Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/sem",
-        "faculties": ["BC"]
+    "NU FS": {
+        "name": "Nutrition and Food Sciences",
+        "link": "https://apps.ualberta.ca/catalogue/course/nu_fs",
+        "faculties": [
+            "AH"
+        ]
     },
-    "SMO": {
-        "name": "Strategic Management and Organization",
-        "link": "https://apps.ualberta.ca/catalogue/course/smo",
-        "faculties": ["BC"]
+    "NUTR": {
+        "name": "Nutrition",
+        "link": "https://apps.ualberta.ca/catalogue/course/nutr",
+        "faculties": [
+            "AH"
+        ]
     },
-    "EDCT": {
-        "name": "Education - Career Technology Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/edct",
-        "faculties": ["ED"]
+    "PL SC": {
+        "name": "Plant Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/pl_sc",
+        "faculties": [
+            "AH"
+        ]
     },
-    "EDEL": {
-        "name": "Education - Elementary",
-        "link": "https://apps.ualberta.ca/catalogue/course/edel",
-        "faculties": ["ED"]
+    "R SOC": {
+        "name": "Rural Sociology",
+        "link": "https://apps.ualberta.ca/catalogue/course/r_soc",
+        "faculties": [
+            "AH"
+        ]
     },
-    "EDES": {
-        "name": "Education - Elementary and Secondary",
-        "link": "https://apps.ualberta.ca/catalogue/course/edes",
-        "faculties": ["ED"]
+    "REN R": {
+        "name": "Renewable Resources",
+        "link": "https://apps.ualberta.ca/catalogue/course/ren_r",
+        "faculties": [
+            "AH"
+        ]
     },
-    "EDFX": {
-        "name": "Education - Field Experience",
-        "link": "https://apps.ualberta.ca/catalogue/course/edfx",
-        "faculties": ["ED"]
+    "SUST": {
+        "name": "Sustainability",
+        "link": "https://apps.ualberta.ca/catalogue/course/sust",
+        "faculties": [
+            "AH"
+        ]
     },
-    "EDHS": {
-        "name": "Master of Education in Health Science Education",
-        "link": "https://apps.ualberta.ca/catalogue/course/edhs",
-        "faculties": ["ED"]
+    "UNIV": {
+        "name": "University",
+        "link": "https://apps.ualberta.ca/catalogue/course/univ",
+        "faculties": [
+            "AH"
+        ]
     },
-    "EDIT": {
-        "name": "Education - Instructional Technology",
-        "link": "https://apps.ualberta.ca/catalogue/course/edit",
-        "faculties": ["ED"]
-    },
-    "EDPS": {
-        "name": "Education - Policy Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/edps",
-        "faculties": ["ED"]
-    },
-    "EDPY": {
-        "name": "Education - Psychology",
-        "link": "https://apps.ualberta.ca/catalogue/course/edpy",
-        "faculties": ["ED"]
-    },
-    "EDSE": {
-        "name": "Education - Secondary",
-        "link": "https://apps.ualberta.ca/catalogue/course/edse",
-        "faculties": ["ED"]
-    },
-    "EDU": {
-        "name": "Education",
-        "link": "https://apps.ualberta.ca/catalogue/course/edu",
-        "faculties": ["ED"]
-    },
-    "LIS": {
-        "name": "Library and Information Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/lis",
-        "faculties": ["ED"]
-    },
-    "CH E": {
-        "name": "Chemical Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/ch_e",
-        "faculties": ["EN"]
-    },
-    "CIV E": {
-        "name": "Civil Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/civ_e",
-        "faculties": ["EN"]
-    },
-    "CME": {
-        "name": "Chemical and Materials Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/cme",
-        "faculties": ["EN"]
-    },
-    "ECE": {
-        "name": "Electrical and Computer Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/ece",
-        "faculties": ["EN"]
-    },
-    "ENCMP": {
-        "name": "Engineering, Computer",
-        "link": "https://apps.ualberta.ca/catalogue/course/encmp",
-        "faculties": ["EN"]
-    },
-    "ENG M": {
-        "name": "Engineering Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/eng_m",
-        "faculties": ["EN"]
-    },
-    "ENGG": {
-        "name": "Engineering, General",
-        "link": "https://apps.ualberta.ca/catalogue/course/engg",
-        "faculties": ["EN"]
-    },
-    "ENV E": {
-        "name": "Environmental Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/env_e",
-        "faculties": ["EN"]
-    },
-    "MAT E": {
-        "name": "Materials Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/mat_e",
-        "faculties": ["EN"]
-    },
-    "MEC E": {
-        "name": "Mechanical Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/mec_e",
-        "faculties": ["EN"]
-    },
-    "MIN E": {
-        "name": "Mining Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/min_e",
-        "faculties": ["EN"]
-    },
-    "PET E": {
-        "name": "Petroleum Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/pet_e",
-        "faculties": ["EN"]
+    "WKEXP": {
+        "name": "Work Experience",
+        "link": "https://apps.ualberta.ca/catalogue/course/wkexp",
+        "faculties": [
+            "AH",
+            "BC",
+            "EN",
+            "AR",
+            "SC"
+        ]
     },
     "ABROD": {
         "name": "Abroad, Study Term",
         "link": "https://apps.ualberta.ca/catalogue/course/abrod",
-        "faculties": ["ET", "GS"]
+        "faculties": [
+            "ET",
+            "GS"
+        ]
     },
     "EXCH": {
         "name": "Exchange Program",
         "link": "https://apps.ualberta.ca/catalogue/course/exch",
-        "faculties": ["ET", "GS"]
+        "faculties": [
+            "ET",
+            "GS"
+        ]
     },
-    "EAP": {
-        "name": "English for Academic Purposes",
-        "link": "https://apps.ualberta.ca/catalogue/course/eap",
-        "faculties": ["EX"]
-    },
-    "EXAGC": {
-        "name": "Extension - Applied Geostatistics",
-        "link": "https://apps.ualberta.ca/catalogue/course/exagc",
-        "faculties": ["EX"]
-    },
-    "EXARE": {
-        "name": "Extension - Aboriginal Relations Engagement",
-        "link": "https://apps.ualberta.ca/catalogue/course/exare",
-        "faculties": ["EX"]
-    },
-    "EXART": {
-        "name": "Extension - Fine Arts",
-        "link": "https://apps.ualberta.ca/catalogue/course/exart",
-        "faculties": ["EX"]
-    },
-    "EXBA": {
-        "name": "Extension - Business Analysis",
-        "link": "https://apps.ualberta.ca/catalogue/course/exba",
-        "faculties": ["EX"]
-    },
-    "EXCES": {
-        "name": "Extension - Community Engagement",
-        "link": "https://apps.ualberta.ca/catalogue/course/exces",
-        "faculties": ["EX"]
-    },
-    "EXCPE": {
-        "name": "Extension - Continuing and Professional Education",
-        "link": "https://apps.ualberta.ca/catalogue/course/excpe",
-        "faculties": ["EX"]
-    },
-    "EXCST": {
-        "name": "Extension - Construction Administration",
-        "link": "https://apps.ualberta.ca/catalogue/course/excst",
-        "faculties": ["EX"]
-    },
-    "EXELP": {
-        "name": "Extension - English Language Program",
-        "link": "https://apps.ualberta.ca/catalogue/course/exelp",
-        "faculties": ["EX"]
-    },
-    "EXEN": {
-        "name": "CE - Faculty of Engineering",
-        "link": "https://apps.ualberta.ca/catalogue/course/exen",
-        "faculties": ["EX"]
-    },
-    "EXERM": {
-        "name": "Extension - Environmental Resource Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/exerm",
-        "faculties": ["EX"]
-    },
-    "EXFOMD": {
-        "name": "CE - Faculty of Medicine and Dentistry",
-        "link": "https://apps.ualberta.ca/catalogue/course/exfomd",
-        "faculties": ["EX", "MH"]
-    },
-    "EXGEN": {
-        "name": "Extension - General Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/exgen",
-        "faculties": ["EX"]
-    },
-    "EXGL": {
-        "name": "Extension - Global Leadership",
-        "link": "https://apps.ualberta.ca/catalogue/course/exgl",
-        "faculties": ["EX"]
-    },
-    "EXIAPP": {
-        "name": "Extension - Info Access & Protection of Privacy",
-        "link": "https://apps.ualberta.ca/catalogue/course/exiapp",
-        "faculties": ["EX"]
-    },
-    "EXIIC": {
-        "name": "Extension - Insuranced Institute of Canada",
-        "link": "https://apps.ualberta.ca/catalogue/course/exiic",
-        "faculties": ["EX"]
-    },
-    "EXLDR": {
-        "name": "Extension - Leadership",
-        "link": "https://apps.ualberta.ca/catalogue/course/exldr",
-        "faculties": ["EX"]
-    },
-    "EXLGP": {
-        "name": "Extension - Local Government",
-        "link": "https://apps.ualberta.ca/catalogue/course/exlgp",
-        "faculties": ["EX"]
-    },
-    "EXLUP": {
-        "name": "Extension - Applied Land Use Planning",
-        "link": "https://apps.ualberta.ca/catalogue/course/exlup",
-        "faculties": ["EX"]
-    },
-    "EXMGT": {
-        "name": "Extension - Business Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/exmgt",
-        "faculties": ["EX"]
-    },
-    "EXOS": {
-        "name": "Extension - Occupational Health & Safety",
-        "link": "https://apps.ualberta.ca/catalogue/course/exos",
-        "faculties": ["EX"]
-    },
-    "EXRI": {
-        "name": "Extension - Residential Interiors",
-        "link": "https://apps.ualberta.ca/catalogue/course/exri",
-        "faculties": ["EX"]
-    },
-    "EXSCMA": {
-        "name": "Extension - Supply Chain Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/exscma",
-        "faculties": ["EX"]
-    },
-    "EXSDP": {
-        "name": "Extension - Supervisory Development",
-        "link": "https://apps.ualberta.ca/catalogue/course/exsdp",
-        "faculties": ["EX"]
-    },
-    "EXSLC": {
-        "name": "Extension - Spanish",
-        "link": "https://apps.ualberta.ca/catalogue/course/exslc",
-        "faculties": ["EX"]
-    },
-    "EXSM": {
-        "name": "Extension - Social Media",
-        "link": "https://apps.ualberta.ca/catalogue/course/exsm",
-        "faculties": ["EX"]
-    },
-    "EXSPH": {
-        "name": "CE - School of Public Health",
-        "link": "https://apps.ualberta.ca/catalogue/course/exsph",
-        "faculties": ["EX", "PS"]
-    },
-    "EXT": {
-        "name": "Extension",
-        "link": "https://apps.ualberta.ca/catalogue/course/ext",
-        "faculties": ["EX"]
-    },
-    "EXTL": {
-        "name": "Extension - Teaching in Learning",
-        "link": "https://apps.ualberta.ca/catalogue/course/extl",
-        "faculties": ["EX"]
-    },
-    "AGRMT": {
-        "name": "Agreement Formal (Registration)",
-        "link": "https://apps.ualberta.ca/catalogue/course/agrmt",
-        "faculties": ["GS"]
-    },
-    "M REG": {
-        "name": "Maintaining Registration",
-        "link": "https://apps.ualberta.ca/catalogue/course/m_reg",
-        "faculties": ["GS"]
-    },
-    "RSCH": {
-        "name": "Research",
-        "link": "https://apps.ualberta.ca/catalogue/course/rsch",
-        "faculties": ["GS"]
-    },
-    "THES": {
-        "name": "Thesis",
-        "link": "https://apps.ualberta.ca/catalogue/course/thes",
-        "faculties": ["GS"]
+    "URSCH": {
+        "name": "Undergraduate Research",
+        "link": "https://apps.ualberta.ca/catalogue/course/ursch",
+        "faculties": [
+            "ET"
+        ]
     },
     "LAW": {
         "name": "Law",
         "link": "https://apps.ualberta.ca/catalogue/course/law",
-        "faculties": ["LA"]
+        "faculties": [
+            "LA"
+        ]
     },
-    "ANAT": {
-        "name": "Anatomy",
-        "link": "https://apps.ualberta.ca/catalogue/course/anat",
-        "faculties": ["MH"]
+    "ACCTG": {
+        "name": "Accounting",
+        "link": "https://apps.ualberta.ca/catalogue/course/acctg",
+        "faculties": [
+            "BC"
+        ]
     },
-    "BIOCH": {
-        "name": "Biochemistry",
-        "link": "https://apps.ualberta.ca/catalogue/course/bioch",
-        "faculties": ["MH"]
+    "B LAW": {
+        "name": "Business Law",
+        "link": "https://apps.ualberta.ca/catalogue/course/b_law",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "BTM": {
+        "name": "Business Technology Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/btm",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "BUEC": {
+        "name": "Business Economics",
+        "link": "https://apps.ualberta.ca/catalogue/course/buec",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "BUS": {
+        "name": "Business",
+        "link": "https://apps.ualberta.ca/catalogue/course/bus",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "EXASB": {
+        "name": "CE - Alberta School of Business",
+        "link": "https://apps.ualberta.ca/catalogue/course/exasb",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "FIN": {
+        "name": "Finance",
+        "link": "https://apps.ualberta.ca/catalogue/course/fin",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "MARK": {
+        "name": "Marketing",
+        "link": "https://apps.ualberta.ca/catalogue/course/mark",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "MGTSC": {
+        "name": "Management Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/mgtsc",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "MMA": {
+        "name": "Master's in Management Analytics",
+        "link": "https://apps.ualberta.ca/catalogue/course/mma",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "OM": {
+        "name": "Operations Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/om",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "RED": {
+        "name": "Real Estate Development",
+        "link": "https://apps.ualberta.ca/catalogue/course/red",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "SEM": {
+        "name": "Strategy, Entrepreneurship and Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/sem",
+        "faculties": [
+            "BC"
+        ]
+    },
+    "EXAGC": {
+        "name": "OCE - Applied Geostatistics",
+        "link": "https://apps.ualberta.ca/catalogue/course/exagc",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXARE": {
+        "name": "OCE - Aboriginal Relations Engagement",
+        "link": "https://apps.ualberta.ca/catalogue/course/exare",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXBA": {
+        "name": "OCE - Business Analysis",
+        "link": "https://apps.ualberta.ca/catalogue/course/exba",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXCPE": {
+        "name": "OCE - Continuing and Professional Education",
+        "link": "https://apps.ualberta.ca/catalogue/course/excpe",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXCST": {
+        "name": "OCE - Construction Administration",
+        "link": "https://apps.ualberta.ca/catalogue/course/excst",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXERM": {
+        "name": "OCE - Environmental Resource Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/exerm",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXGEN": {
+        "name": "OCE - General Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/exgen",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXGL": {
+        "name": "OCE - Global Leadership",
+        "link": "https://apps.ualberta.ca/catalogue/course/exgl",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXIAPP": {
+        "name": "OCE - Info Access & Protection of Privacy",
+        "link": "https://apps.ualberta.ca/catalogue/course/exiapp",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXLDR": {
+        "name": "OCE - Leadership",
+        "link": "https://apps.ualberta.ca/catalogue/course/exldr",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXLGP": {
+        "name": "OCE - Local Government",
+        "link": "https://apps.ualberta.ca/catalogue/course/exlgp",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXLUP": {
+        "name": "OCE - Applied Land Use Planning",
+        "link": "https://apps.ualberta.ca/catalogue/course/exlup",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXMGT": {
+        "name": "OCE - Business Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/exmgt",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXOPT": {
+        "name": "Continuing Education Elective",
+        "link": "https://apps.ualberta.ca/catalogue/course/exopt",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXOS": {
+        "name": "OCE - Occupational Health & Safety",
+        "link": "https://apps.ualberta.ca/catalogue/course/exos",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXRI": {
+        "name": "OCE - Residential Interiors",
+        "link": "https://apps.ualberta.ca/catalogue/course/exri",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXSCMA": {
+        "name": "OCE - Supply Chain Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/exscma",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXSM": {
+        "name": "OCE - Social Media",
+        "link": "https://apps.ualberta.ca/catalogue/course/exsm",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EXT": {
+        "name": "Extension",
+        "link": "https://apps.ualberta.ca/catalogue/course/ext",
+        "faculties": [
+            "EX"
+        ]
+    },
+    "EAP": {
+        "name": "English for Academic Purposes",
+        "link": "https://apps.ualberta.ca/catalogue/course/eap",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDCT": {
+        "name": "Education - Career Technology Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/edct",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDEL": {
+        "name": "Education - Elementary",
+        "link": "https://apps.ualberta.ca/catalogue/course/edel",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDES": {
+        "name": "Education - Elementary and Secondary",
+        "link": "https://apps.ualberta.ca/catalogue/course/edes",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDFX": {
+        "name": "Education - Field Experience",
+        "link": "https://apps.ualberta.ca/catalogue/course/edfx",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDHS": {
+        "name": "Master of Education in Health Science Education",
+        "link": "https://apps.ualberta.ca/catalogue/course/edhs",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDIT": {
+        "name": "Education - Instructional Technology",
+        "link": "https://apps.ualberta.ca/catalogue/course/edit",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDPS": {
+        "name": "Education - Policy Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/edps",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDPY": {
+        "name": "Education - Psychology",
+        "link": "https://apps.ualberta.ca/catalogue/course/edpy",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDSE": {
+        "name": "Education - Secondary",
+        "link": "https://apps.ualberta.ca/catalogue/course/edse",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EDU": {
+        "name": "Education",
+        "link": "https://apps.ualberta.ca/catalogue/course/edu",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "EXELP": {
+        "name": "OCE - English Language Program",
+        "link": "https://apps.ualberta.ca/catalogue/course/exelp",
+        "faculties": [
+            "ED"
+        ]
+    },
+    "LIS": {
+        "name": "Library and Information Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/lis",
+        "faculties": [
+            "ED"
+        ]
     },
     "BME": {
         "name": "Biomedical Engineering",
         "link": "https://apps.ualberta.ca/catalogue/course/bme",
-        "faculties": ["MH"]
+        "faculties": [
+            "EN"
+        ]
     },
-    "CELL": {
-        "name": "Cell Biology",
-        "link": "https://apps.ualberta.ca/catalogue/course/cell",
-        "faculties": ["MH", "SC"]
+    "CH E": {
+        "name": "Chemical Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/ch_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "D HYG": {
-        "name": "Dental Hygiene",
-        "link": "https://apps.ualberta.ca/catalogue/course/d_hyg",
-        "faculties": ["MH"]
+    "CIV E": {
+        "name": "Civil Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/civ_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "DDS": {
-        "name": "Dentistry",
-        "link": "https://apps.ualberta.ca/catalogue/course/dds",
-        "faculties": ["MH"]
+    "CME": {
+        "name": "Chemical and Materials Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/cme",
+        "faculties": [
+            "EN"
+        ]
     },
-    "DENT": {
-        "name": "Dentistry",
-        "link": "https://apps.ualberta.ca/catalogue/course/dent",
-        "faculties": ["MH"]
+    "ECE": {
+        "name": "Electrical and Computer Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/ece",
+        "faculties": [
+            "EN"
+        ]
     },
-    "DMED": {
-        "name": "Dentistry/Medicine",
-        "link": "https://apps.ualberta.ca/catalogue/course/dmed",
-        "faculties": ["MH"]
+    "ENCMP": {
+        "name": "Engineering, Computer",
+        "link": "https://apps.ualberta.ca/catalogue/course/encmp",
+        "faculties": [
+            "EN"
+        ]
     },
-    "F MED": {
-        "name": "Family Medicine",
-        "link": "https://apps.ualberta.ca/catalogue/course/f_med",
-        "faculties": ["MH"]
+    "ENG M": {
+        "name": "Engineering Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/eng_m",
+        "faculties": [
+            "EN"
+        ]
     },
-    "LABMP": {
-        "name": "Laboratory Medicine and Pathology",
-        "link": "https://apps.ualberta.ca/catalogue/course/labmp",
-        "faculties": ["MH"]
+    "ENGG": {
+        "name": "Engineering, General",
+        "link": "https://apps.ualberta.ca/catalogue/course/engg",
+        "faculties": [
+            "EN"
+        ]
     },
-    "MDGEN": {
-        "name": "Medical Genetics",
-        "link": "https://apps.ualberta.ca/catalogue/course/mdgen",
-        "faculties": ["MH"]
+    "ENV E": {
+        "name": "Environmental Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/env_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "MED": {
-        "name": "Medicine",
-        "link": "https://apps.ualberta.ca/catalogue/course/med",
-        "faculties": ["MH"]
+    "EXEN": {
+        "name": "CE - Faculty of Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/exen",
+        "faculties": [
+            "EN"
+        ]
     },
-    "MLSCI": {
-        "name": "Medical Laboratory Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/mlsci",
-        "faculties": ["MH"]
+    "MAT E": {
+        "name": "Materials Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/mat_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "MMI": {
-        "name": "Medical Microbiology and Immunology",
-        "link": "https://apps.ualberta.ca/catalogue/course/mmi",
-        "faculties": ["MH"]
+    "MCTR": {
+        "name": "Mechatronics & Robotics Engg",
+        "link": "https://apps.ualberta.ca/catalogue/course/mctr",
+        "faculties": [
+            "EN"
+        ]
     },
-    "NEURO": {
-        "name": "Neuroscience and Mental Health Institute",
-        "link": "https://apps.ualberta.ca/catalogue/course/neuro",
-        "faculties": ["MH", "SC"]
+    "MEC E": {
+        "name": "Mechanical Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/mec_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "OB GY": {
-        "name": "Obstetrics and Gynaecology",
-        "link": "https://apps.ualberta.ca/catalogue/course/ob_gy",
-        "faculties": ["MH"]
+    "MIN E": {
+        "name": "Mining Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/min_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "OBIOL": {
-        "name": "Oral Biology",
-        "link": "https://apps.ualberta.ca/catalogue/course/obiol",
-        "faculties": ["MH"]
+    "PET E": {
+        "name": "Petroleum Engineering",
+        "link": "https://apps.ualberta.ca/catalogue/course/pet_e",
+        "faculties": [
+            "EN"
+        ]
     },
-    "ONCOL": {
-        "name": "Oncology",
-        "link": "https://apps.ualberta.ca/catalogue/course/oncol",
-        "faculties": ["MH"]
+    "ANTHR": {
+        "name": "Anthropology",
+        "link": "https://apps.ualberta.ca/catalogue/course/anthr",
+        "faculties": [
+            "AR"
+        ]
     },
-    "OPHTH": {
-        "name": "Ophthalmology",
-        "link": "https://apps.ualberta.ca/catalogue/course/ophth",
-        "faculties": ["MH"]
+    "ARAB": {
+        "name": "Arabic",
+        "link": "https://apps.ualberta.ca/catalogue/course/arab",
+        "faculties": [
+            "AR"
+        ]
     },
-    "PAED": {
-        "name": "Paediatrics",
-        "link": "https://apps.ualberta.ca/catalogue/course/paed",
-        "faculties": ["MH"]
+    "ART": {
+        "name": "Art",
+        "link": "https://apps.ualberta.ca/catalogue/course/art",
+        "faculties": [
+            "AR"
+        ]
     },
-    "PGDE": {
-        "name": "Postgraduate Dental Education",
-        "link": "https://apps.ualberta.ca/catalogue/course/pgde",
-        "faculties": ["MH"]
+    "ASL": {
+        "name": "American Sign Language",
+        "link": "https://apps.ualberta.ca/catalogue/course/asl",
+        "faculties": [
+            "AR"
+        ]
     },
-    "PGME": {
-        "name": "Postgraduate Medical Education",
-        "link": "https://apps.ualberta.ca/catalogue/course/pgme",
-        "faculties": ["MH"]
+    "C LIT": {
+        "name": "Comparative Literature",
+        "link": "https://apps.ualberta.ca/catalogue/course/c_lit",
+        "faculties": [
+            "AR"
+        ]
     },
-    "PHYSL": {
-        "name": "Physiology",
-        "link": "https://apps.ualberta.ca/catalogue/course/physl",
-        "faculties": ["MH"]
+    "CHINA": {
+        "name": "Chinese",
+        "link": "https://apps.ualberta.ca/catalogue/course/china",
+        "faculties": [
+            "AR"
+        ]
     },
-    "PMCOL": {
-        "name": "Pharmacology",
-        "link": "https://apps.ualberta.ca/catalogue/course/pmcol",
-        "faculties": ["MH", "SC"]
+    "CHRTC": {
+        "name": "Christian Theology at St Joseph's College",
+        "link": "https://apps.ualberta.ca/catalogue/course/chrtc",
+        "faculties": [
+            "AR"
+        ]
     },
-    "PSYCI": {
-        "name": "Psychiatry",
-        "link": "https://apps.ualberta.ca/catalogue/course/psyci",
-        "faculties": ["MH"]
+    "CLASS": {
+        "name": "Classics",
+        "link": "https://apps.ualberta.ca/catalogue/course/class",
+        "faculties": [
+            "AR"
+        ]
     },
-    "RADDI": {
-        "name": "Radiology and Diagnostic Imaging",
-        "link": "https://apps.ualberta.ca/catalogue/course/raddi",
-        "faculties": ["MH"]
+    "COMM": {
+        "name": "Communications and Technology",
+        "link": "https://apps.ualberta.ca/catalogue/course/comm",
+        "faculties": [
+            "AR"
+        ]
     },
-    "RADTH": {
-        "name": "Radiation Therapy",
-        "link": "https://apps.ualberta.ca/catalogue/course/radth",
-        "faculties": ["MH"]
+    "CSL": {
+        "name": "Community Service-Learning",
+        "link": "https://apps.ualberta.ca/catalogue/course/csl",
+        "faculties": [
+            "AR"
+        ]
     },
-    "SURG": {
-        "name": "Surgery",
-        "link": "https://apps.ualberta.ca/catalogue/course/surg",
-        "faculties": ["MH"]
+    "DES": {
+        "name": "Design",
+        "link": "https://apps.ualberta.ca/catalogue/course/des",
+        "faculties": [
+            "AR"
+        ]
     },
-    "NS": {
-        "name": "Native Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/ns",
-        "faculties": ["NS"]
+    "DH": {
+        "name": "Digital Humanities",
+        "link": "https://apps.ualberta.ca/catalogue/course/dh",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "DRAMA": {
+        "name": "Drama",
+        "link": "https://apps.ualberta.ca/catalogue/course/drama",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "EASIA": {
+        "name": "East Asian Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/easia",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "ECON": {
+        "name": "Economics",
+        "link": "https://apps.ualberta.ca/catalogue/course/econ",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "ENGL": {
+        "name": "English",
+        "link": "https://apps.ualberta.ca/catalogue/course/engl",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "EXAR": {
+        "name": "CE - Faculty of Arts",
+        "link": "https://apps.ualberta.ca/catalogue/course/exar",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "FOLK": {
+        "name": "Folklore",
+        "link": "https://apps.ualberta.ca/catalogue/course/folk",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "FREN": {
+        "name": "French Language and Literature",
+        "link": "https://apps.ualberta.ca/catalogue/course/fren",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "FS": {
+        "name": "Film Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/fs",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "GERM": {
+        "name": "German",
+        "link": "https://apps.ualberta.ca/catalogue/course/germ",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "GREEK": {
+        "name": "Greek",
+        "link": "https://apps.ualberta.ca/catalogue/course/greek",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "GSJ": {
+        "name": "Gender and Social Justice",
+        "link": "https://apps.ualberta.ca/catalogue/course/gsj",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "HADVC": {
+        "name": "History of Art, Design, and Visual Culture",
+        "link": "https://apps.ualberta.ca/catalogue/course/hadvc",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "HEBR": {
+        "name": "Hebrew",
+        "link": "https://apps.ualberta.ca/catalogue/course/hebr",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "HGEO": {
+        "name": "Human Geography",
+        "link": "https://apps.ualberta.ca/catalogue/course/hgeo",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "HINDI": {
+        "name": "Hindi",
+        "link": "https://apps.ualberta.ca/catalogue/course/hindi",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "HIST": {
+        "name": "History",
+        "link": "https://apps.ualberta.ca/catalogue/course/hist",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "IRISH": {
+        "name": "Irish Language and Culture",
+        "link": "https://apps.ualberta.ca/catalogue/course/irish",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "ITAL": {
+        "name": "Italian",
+        "link": "https://apps.ualberta.ca/catalogue/course/ital",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "JAPAN": {
+        "name": "Japanese",
+        "link": "https://apps.ualberta.ca/catalogue/course/japan",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "KOREA": {
+        "name": "Korean",
+        "link": "https://apps.ualberta.ca/catalogue/course/korea",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "LA ST": {
+        "name": "Latin American Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/la_st",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "LATIN": {
+        "name": "Latin",
+        "link": "https://apps.ualberta.ca/catalogue/course/latin",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "LING": {
+        "name": "Linguistics",
+        "link": "https://apps.ualberta.ca/catalogue/course/ling",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "MLCS": {
+        "name": "Modern Languages and Cultural Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/mlcs",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "MST": {
+        "name": "Media Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/mst",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "MUSIC": {
+        "name": "Music",
+        "link": "https://apps.ualberta.ca/catalogue/course/music",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "NORSE": {
+        "name": "Old Norse",
+        "link": "https://apps.ualberta.ca/catalogue/course/norse",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "NORW": {
+        "name": "Norwegian",
+        "link": "https://apps.ualberta.ca/catalogue/course/norw",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "PHIL": {
+        "name": "Philosophy",
+        "link": "https://apps.ualberta.ca/catalogue/course/phil",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "PLAN": {
+        "name": "Urban and Regional Planning",
+        "link": "https://apps.ualberta.ca/catalogue/course/plan",
+        "faculties": [
+            "AR",
+            "SC"
+        ]
+    },
+    "POL S": {
+        "name": "Political Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/pol_s",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "POLSH": {
+        "name": "Polish",
+        "link": "https://apps.ualberta.ca/catalogue/course/polsh",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "PORT": {
+        "name": "Portuguese",
+        "link": "https://apps.ualberta.ca/catalogue/course/port",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "PSYCH": {
+        "name": "Psychology",
+        "link": "https://apps.ualberta.ca/catalogue/course/psych",
+        "faculties": [
+            "AR",
+            "SC"
+        ]
+    },
+    "PUNJ": {
+        "name": "Punjabi",
+        "link": "https://apps.ualberta.ca/catalogue/course/punj",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "RELIG": {
+        "name": "Religious Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/relig",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "RUSS": {
+        "name": "Russian",
+        "link": "https://apps.ualberta.ca/catalogue/course/russ",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "SANSK": {
+        "name": "Sanskrit",
+        "link": "https://apps.ualberta.ca/catalogue/course/sansk",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "SCAND": {
+        "name": "Scandinavian",
+        "link": "https://apps.ualberta.ca/catalogue/course/scand",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "SLAV": {
+        "name": "Slavic and East European Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/slav",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "SOC": {
+        "name": "Sociology",
+        "link": "https://apps.ualberta.ca/catalogue/course/soc",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "SPAN": {
+        "name": "Spanish",
+        "link": "https://apps.ualberta.ca/catalogue/course/span",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "STS": {
+        "name": "Science, Technology, and Society",
+        "link": "https://apps.ualberta.ca/catalogue/course/sts",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "SWED": {
+        "name": "Swedish",
+        "link": "https://apps.ualberta.ca/catalogue/course/swed",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "T DES": {
+        "name": "Theatre Design",
+        "link": "https://apps.ualberta.ca/catalogue/course/t_des",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "UKR": {
+        "name": "Ukrainian",
+        "link": "https://apps.ualberta.ca/catalogue/course/ukr",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "WGS": {
+        "name": "Women's and Gender Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/wgs",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "WRITE": {
+        "name": "Write (Creative Writing)",
+        "link": "https://apps.ualberta.ca/catalogue/course/write",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "WRS": {
+        "name": "Writing Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/wrs",
+        "faculties": [
+            "AR"
+        ]
+    },
+    "AGRMT": {
+        "name": "Agreement Formal (Registration)",
+        "link": "https://apps.ualberta.ca/catalogue/course/agrmt",
+        "faculties": [
+            "GS"
+        ]
+    },
+    "M REG": {
+        "name": "Maintaining Registration",
+        "link": "https://apps.ualberta.ca/catalogue/course/m_reg",
+        "faculties": [
+            "GS"
+        ]
+    },
+    "RSCH": {
+        "name": "Research",
+        "link": "https://apps.ualberta.ca/catalogue/course/rsch",
+        "faculties": [
+            "GS"
+        ]
+    },
+    "THES": {
+        "name": "Thesis",
+        "link": "https://apps.ualberta.ca/catalogue/course/thes",
+        "faculties": [
+            "GS"
+        ]
     },
     "NURS": {
         "name": "Nursing",
         "link": "https://apps.ualberta.ca/catalogue/course/nurs",
-        "faculties": ["NU"]
+        "faculties": [
+            "NU"
+        ]
     },
     "SC INF": {
         "name": "Sciences infirmi\u00e8res",
         "link": "https://apps.ualberta.ca/catalogue/course/sc_inf",
-        "faculties": ["NU"]
+        "faculties": [
+            "NU"
+        ]
     },
-    "DAC": {
-        "name": "Dance Activity",
-        "link": "https://apps.ualberta.ca/catalogue/course/dac",
-        "faculties": ["PE"]
+    "AIB": {
+        "name": "Alberta Institute Biomedicine",
+        "link": "https://apps.ualberta.ca/catalogue/course/aib",
+        "faculties": [
+            "MH"
+        ]
     },
-    "DANCE": {
-        "name": "Dance",
-        "link": "https://apps.ualberta.ca/catalogue/course/dance",
-        "faculties": ["PE"]
+    "ANAT": {
+        "name": "Anatomy",
+        "link": "https://apps.ualberta.ca/catalogue/course/anat",
+        "faculties": [
+            "MH"
+        ]
     },
-    "HE ED": {
-        "name": "Health Education",
-        "link": "https://apps.ualberta.ca/catalogue/course/he_ed",
-        "faculties": ["PE"]
+    "BIOCH": {
+        "name": "Biochemistry",
+        "link": "https://apps.ualberta.ca/catalogue/course/bioch",
+        "faculties": [
+            "MH"
+        ]
     },
-    "KIN": {
-        "name": "Kinesiology",
-        "link": "https://apps.ualberta.ca/catalogue/course/kin",
-        "faculties": ["PE"]
+    "CELL": {
+        "name": "Cell Biology",
+        "link": "https://apps.ualberta.ca/catalogue/course/cell",
+        "faculties": [
+            "MH"
+        ]
     },
-    "KRLS": {
-        "name": "Kinesiology, Recreation, Leisure and Sport",
-        "link": "https://apps.ualberta.ca/catalogue/course/krls",
-        "faculties": ["PE"]
+    "D HYG": {
+        "name": "Dental Hygiene",
+        "link": "https://apps.ualberta.ca/catalogue/course/d_hyg",
+        "faculties": [
+            "MH"
+        ]
     },
-    "KSR": {
-        "name": "Kinesiology, Sport, and Recreation",
-        "link": "https://apps.ualberta.ca/catalogue/course/ksr",
-        "faculties": ["PE"]
+    "DA": {
+        "name": "Dental Assisting",
+        "link": "https://apps.ualberta.ca/catalogue/course/da",
+        "faculties": [
+            "MH"
+        ]
     },
-    "PAC": {
-        "name": "Physical Activity",
-        "link": "https://apps.ualberta.ca/catalogue/course/pac",
-        "faculties": ["PE"]
+    "DDS": {
+        "name": "Dentistry",
+        "link": "https://apps.ualberta.ca/catalogue/course/dds",
+        "faculties": [
+            "MH"
+        ]
     },
-    "RLS": {
-        "name": "Recreation and Leisure Studies",
-        "link": "https://apps.ualberta.ca/catalogue/course/rls",
-        "faculties": ["PE"]
+    "DENT": {
+        "name": "Dentistry",
+        "link": "https://apps.ualberta.ca/catalogue/course/dent",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "F MED": {
+        "name": "Family Medicine",
+        "link": "https://apps.ualberta.ca/catalogue/course/f_med",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "LABMP": {
+        "name": "Laboratory Medicine and Pathology",
+        "link": "https://apps.ualberta.ca/catalogue/course/labmp",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "MDGEN": {
+        "name": "Medical Genetics",
+        "link": "https://apps.ualberta.ca/catalogue/course/mdgen",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "MED": {
+        "name": "Medicine",
+        "link": "https://apps.ualberta.ca/catalogue/course/med",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "MEDPH": {
+        "name": "Medical Physics",
+        "link": "https://apps.ualberta.ca/catalogue/course/medph",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "MLSCI": {
+        "name": "Medical Laboratory Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/mlsci",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "MMI": {
+        "name": "Medical Microbiology and Immunology",
+        "link": "https://apps.ualberta.ca/catalogue/course/mmi",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "NEURO": {
+        "name": "Neuroscience and Mental Health Institute",
+        "link": "https://apps.ualberta.ca/catalogue/course/neuro",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "OB GY": {
+        "name": "Obstetrics and Gynaecology",
+        "link": "https://apps.ualberta.ca/catalogue/course/ob_gy",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "OBIOL": {
+        "name": "Oral Biology",
+        "link": "https://apps.ualberta.ca/catalogue/course/obiol",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "ONCOL": {
+        "name": "Oncology",
+        "link": "https://apps.ualberta.ca/catalogue/course/oncol",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "OPHTH": {
+        "name": "Ophthalmology",
+        "link": "https://apps.ualberta.ca/catalogue/course/ophth",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "PAED": {
+        "name": "Paediatrics",
+        "link": "https://apps.ualberta.ca/catalogue/course/paed",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "PGDE": {
+        "name": "Postgraduate Dental Education",
+        "link": "https://apps.ualberta.ca/catalogue/course/pgde",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "PGME": {
+        "name": "Postgraduate Medical Education",
+        "link": "https://apps.ualberta.ca/catalogue/course/pgme",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "PHYSL": {
+        "name": "Physiology",
+        "link": "https://apps.ualberta.ca/catalogue/course/physl",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "PMCOL": {
+        "name": "Pharmacology",
+        "link": "https://apps.ualberta.ca/catalogue/course/pmcol",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "PSYCI": {
+        "name": "Psychiatry",
+        "link": "https://apps.ualberta.ca/catalogue/course/psyci",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "RADDI": {
+        "name": "Radiology and Diagnostic Imaging",
+        "link": "https://apps.ualberta.ca/catalogue/course/raddi",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "RADTH": {
+        "name": "Radiation Therapy",
+        "link": "https://apps.ualberta.ca/catalogue/course/radth",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "SURG": {
+        "name": "Surgery",
+        "link": "https://apps.ualberta.ca/catalogue/course/surg",
+        "faculties": [
+            "MH"
+        ]
+    },
+    "EXPH": {
+        "name": "CE - Faculty of Pharmacy",
+        "link": "https://apps.ualberta.ca/catalogue/course/exph",
+        "faculties": [
+            "PH"
+        ]
     },
     "PHARM": {
         "name": "Pharmacy",
         "link": "https://apps.ualberta.ca/catalogue/course/pharm",
-        "faculties": ["PH"]
-    },
-    "MACE": {
-        "name": "Community Engagement",
-        "link": "https://apps.ualberta.ca/catalogue/course/mace",
-        "faculties": ["PS"]
-    },
-    "SPH": {
-        "name": "School of Public Health",
-        "link": "https://apps.ualberta.ca/catalogue/course/sph",
-        "faculties": ["PS"]
-    },
-    "CSD": {
-        "name": "Communication Sciences and Disorders",
-        "link": "https://apps.ualberta.ca/catalogue/course/csd",
-        "faculties": ["RM"]
-    },
-    "OCCTH": {
-        "name": "Occupational Therapy",
-        "link": "https://apps.ualberta.ca/catalogue/course/occth",
-        "faculties": ["RM"]
-    },
-    "PTHER": {
-        "name": "Physical Therapy",
-        "link": "https://apps.ualberta.ca/catalogue/course/pther",
-        "faculties": ["RM"]
-    },
-    "REHAB": {
-        "name": "Rehabilitation Medicine",
-        "link": "https://apps.ualberta.ca/catalogue/course/rehab",
-        "faculties": ["RM"]
-    },
-    "ADMI": {
-        "name": "FSJ - Administration",
-        "link": "https://apps.ualberta.ca/catalogue/course/admi",
-        "faculties": ["SA"]
-    },
-    "ADRAM": {
-        "name": "FSJ - Art dramatique",
-        "link": "https://apps.ualberta.ca/catalogue/course/adram",
-        "faculties": ["SA"]
-    },
-    "ALS": {
-        "name": "FSJ - Anglais langue seconde",
-        "link": "https://apps.ualberta.ca/catalogue/course/als",
-        "faculties": ["SA"]
-    },
-    "ANATE": {
-        "name": "FSJ - Anatomie",
-        "link": "https://apps.ualberta.ca/catalogue/course/anate",
-        "faculties": ["SA"]
-    },
-    "ANGL": {
-        "name": "FSJ - Anglais",
-        "link": "https://apps.ualberta.ca/catalogue/course/angl",
-        "faculties": ["SA"]
-    },
-    "ANTHE": {
-        "name": "FSJ - Anthropologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/anthe",
-        "faculties": ["SA"]
-    },
-    "ARTE": {
-        "name": "FSJ - Arts",
-        "link": "https://apps.ualberta.ca/catalogue/course/arte",
-        "faculties": ["SA"]
-    },
-    "BIOCM": {
-        "name": "FSJ - Biochimie",
-        "link": "https://apps.ualberta.ca/catalogue/course/biocm",
-        "faculties": ["SA"]
-    },
-    "BIOLE": {
-        "name": "FSJ - Biologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/biole",
-        "faculties": ["SA"]
-    },
-    "CEDUL": {
-        "name": "FSJ -  Certificat \u00c9ducation Leadership",
-        "link": "https://apps.ualberta.ca/catalogue/course/cedul",
-        "faculties": ["SA"]
-    },
-    "CHIM": {
-        "name": "FSJ - Chimie",
-        "link": "https://apps.ualberta.ca/catalogue/course/chim",
-        "faculties": ["SA"]
-    },
-    "ECONE": {
-        "name": "FSJ - Economie",
-        "link": "https://apps.ualberta.ca/catalogue/course/econe",
-        "faculties": ["SA"]
-    },
-    "EDU F": {
-        "name": "FSJ - Education - Fondements",
-        "link": "https://apps.ualberta.ca/catalogue/course/edu_f",
-        "faculties": ["SA"]
-    },
-    "EDU M": {
-        "name": "FSJ - Education - Methodologie et Curriculum",
-        "link": "https://apps.ualberta.ca/catalogue/course/edu_m",
-        "faculties": ["SA"]
-    },
-    "EDU P": {
-        "name": "FSJ - Education - Psychologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/edu_p",
-        "faculties": ["SA"]
-    },
-    "EDU S": {
-        "name": "FSJ - Education - Stage",
-        "link": "https://apps.ualberta.ca/catalogue/course/edu_s",
-        "faculties": ["SA"]
-    },
-    "EPE": {
-        "name": "CCA - \u00c9ducation \u00e0 la petite enfance",
-        "link": "https://apps.ualberta.ca/catalogue/course/epe",
-        "faculties": ["SA"]
-    },
-    "ET RE": {
-        "name": "FSJ - Etudes de la religion",
-        "link": "https://apps.ualberta.ca/catalogue/course/et_re",
-        "faculties": ["SA"]
-    },
-    "ETCAN": {
-        "name": "FSJ - Etudes canadiennes",
-        "link": "https://apps.ualberta.ca/catalogue/course/etcan",
-        "faculties": ["SA"]
-    },
-    "ETIN": {
-        "name": "FSJ - Etudes interdisciplinaires",
-        "link": "https://apps.ualberta.ca/catalogue/course/etin",
-        "faculties": ["SA"]
-    },
-    "FRANC": {
-        "name": "FSJ - Fran\u00e7ais",
-        "link": "https://apps.ualberta.ca/catalogue/course/franc",
-        "faculties": ["SA"]
-    },
-    "GENEQ": {
-        "name": "FSJ - G\u00e9n\u00e9tique",
-        "link": "https://apps.ualberta.ca/catalogue/course/geneq",
-        "faculties": ["SA"]
-    },
-    "GTOTC": {
-        "name": "CCA - Gestion touristique",
-        "link": "https://apps.ualberta.ca/catalogue/course/gtotc",
-        "faculties": ["SA"]
-    },
-    "HISTE": {
-        "name": "FSJ - Histoire",
-        "link": "https://apps.ualberta.ca/catalogue/course/histe",
-        "faculties": ["SA"]
-    },
-    "HUME": {
-        "name": "FSJ - Humanit\u00e9s",
-        "link": "https://apps.ualberta.ca/catalogue/course/hume",
-        "faculties": ["SA"]
-    },
-    "IMINE": {
-        "name": "FSJ - Immunologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/imine",
-        "faculties": ["SA"]
-    },
-    "LINGQ": {
-        "name": "FSJ - Linguistique",
-        "link": "https://apps.ualberta.ca/catalogue/course/lingq",
-        "faculties": ["SA"]
-    },
-    "LITT": {
-        "name": "FSJ - Litt\u00e9rature",
-        "link": "https://apps.ualberta.ca/catalogue/course/litt",
-        "faculties": ["SA"]
-    },
-    "M EDU": {
-        "name": "FSJ - Ma\u00eetrise \u00e8s sciences de l'\u00e9ducation",
-        "link": "https://apps.ualberta.ca/catalogue/course/m_edu",
-        "faculties": ["SA"]
-    },
-    "MAFSJ": {
-        "name": "FSJ - Maitrise en Art Facult\u00e9 Saint-Jean",
-        "link": "https://apps.ualberta.ca/catalogue/course/mafsj",
-        "faculties": ["SA"]
-    },
-    "MATHQ": {
-        "name": "FSJ - Math\u00e9matiques",
-        "link": "https://apps.ualberta.ca/catalogue/course/mathq",
-        "faculties": ["SA"]
-    },
-    "MICRE": {
-        "name": "FSJ - Microbiologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/micre",
-        "faculties": ["SA"]
-    },
-    "MUSIQ": {
-        "name": "FSJ - Musique",
-        "link": "https://apps.ualberta.ca/catalogue/course/musiq",
-        "faculties": ["SA"]
-    },
-    "PHILE": {
-        "name": "FSJ - Philosophie",
-        "link": "https://apps.ualberta.ca/catalogue/course/phile",
-        "faculties": ["SA"]
-    },
-    "PHYSE": {
-        "name": "FSJ - Physiologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/physe",
-        "faculties": ["SA"]
-    },
-    "PHYSQ": {
-        "name": "FSJ - Physique",
-        "link": "https://apps.ualberta.ca/catalogue/course/physq",
-        "faculties": ["SA"]
-    },
-    "PSSTC": {
-        "name": "CCA - Pr\u00e9pos\u00e9 aux soins de sant\u00e9",
-        "link": "https://apps.ualberta.ca/catalogue/course/psstc",
-        "faculties": ["SA"]
-    },
-    "PSYCE": {
-        "name": "FSJ - Psychologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/psyce",
-        "faculties": ["SA"]
-    },
-    "SC PO": {
-        "name": "FSJ - Science politique",
-        "link": "https://apps.ualberta.ca/catalogue/course/sc_po",
-        "faculties": ["SA"]
-    },
-    "SCSOC": {
-        "name": "FSJ - Sciences sociales",
-        "link": "https://apps.ualberta.ca/catalogue/course/scsoc",
-        "faculties": ["SA"]
-    },
-    "SOCIE": {
-        "name": "FSJ - Sociologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/socie",
-        "faculties": ["SA"]
-    },
-    "STATQ": {
-        "name": "FSJ - Statistique",
-        "link": "https://apps.ualberta.ca/catalogue/course/statq",
-        "faculties": ["SA"]
-    },
-    "TAAFI": {
-        "name": "CCA - Finance",
-        "link": "https://apps.ualberta.ca/catalogue/course/taafi",
-        "faculties": ["SA"]
-    },
-    "TAAMG": {
-        "name": "CCA - Management",
-        "link": "https://apps.ualberta.ca/catalogue/course/taamg",
-        "faculties": ["SA"]
-    },
-    "TAARH": {
-        "name": "CCA - Ressources humaines",
-        "link": "https://apps.ualberta.ca/catalogue/course/taarh",
-        "faculties": ["SA"]
-    },
-    "TAATC": {
-        "name": "CCA - Tronc commun",
-        "link": "https://apps.ualberta.ca/catalogue/course/taatc",
-        "faculties": ["SA"]
-    },
-    "ZOOLE": {
-        "name": "FSJ - Zoologie",
-        "link": "https://apps.ualberta.ca/catalogue/course/zoole",
-        "faculties": ["SA"]
-    },
-    "ASTRO": {
-        "name": "Astronomy",
-        "link": "https://apps.ualberta.ca/catalogue/course/astro",
-        "faculties": ["SC"]
-    },
-    "BIOIN": {
-        "name": "Bioinformatics",
-        "link": "https://apps.ualberta.ca/catalogue/course/bioin",
-        "faculties": ["SC"]
-    },
-    "BIOL": {
-        "name": "Biology",
-        "link": "https://apps.ualberta.ca/catalogue/course/biol",
-        "faculties": ["SC"]
-    },
-    "BIOPH": {
-        "name": "Biophysics",
-        "link": "https://apps.ualberta.ca/catalogue/course/bioph",
-        "faculties": ["SC"]
-    },
-    "BOT": {
-        "name": "Botany",
-        "link": "https://apps.ualberta.ca/catalogue/course/bot",
-        "faculties": ["SC"]
-    },
-    "CHEM": {
-        "name": "Chemistry",
-        "link": "https://apps.ualberta.ca/catalogue/course/chem",
-        "faculties": ["SC"]
-    },
-    "CMPUT": {
-        "name": "Computing Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/cmput",
-        "faculties": ["SC"]
-    },
-    "EAS": {
-        "name": "Earth and Atmospheric Sciences",
-        "link": "https://apps.ualberta.ca/catalogue/course/eas",
-        "faculties": ["SC"]
-    },
-    "EN PH": {
-        "name": "Engineering Physics",
-        "link": "https://apps.ualberta.ca/catalogue/course/en_ph",
-        "faculties": ["SC"]
-    },
-    "ENT": {
-        "name": "Entomology",
-        "link": "https://apps.ualberta.ca/catalogue/course/ent",
-        "faculties": ["SC"]
-    },
-    "EXSC": {
-        "name": "CE - Faculty of Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/exsc",
-        "faculties": ["SC"]
-    },
-    "GENET": {
-        "name": "Genetics",
-        "link": "https://apps.ualberta.ca/catalogue/course/genet",
-        "faculties": ["SC"]
-    },
-    "GEOPH": {
-        "name": "Geophysics",
-        "link": "https://apps.ualberta.ca/catalogue/course/geoph",
-        "faculties": ["SC"]
-    },
-    "IMIN": {
-        "name": "Immunology and Infection",
-        "link": "https://apps.ualberta.ca/catalogue/course/imin",
-        "faculties": ["SC"]
-    },
-    "IPG": {
-        "name": "Integrated Petroleum Geosciences",
-        "link": "https://apps.ualberta.ca/catalogue/course/ipg",
-        "faculties": ["SC"]
-    },
-    "MA PH": {
-        "name": "Mathematical Physics",
-        "link": "https://apps.ualberta.ca/catalogue/course/ma_ph",
-        "faculties": ["SC"]
-    },
-    "MA SC": {
-        "name": "Marine Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/ma_sc",
-        "faculties": ["SC"]
-    },
-    "MATH": {
-        "name": "Mathematics",
-        "link": "https://apps.ualberta.ca/catalogue/course/math",
-        "faculties": ["SC"]
-    },
-    "MICRB": {
-        "name": "Microbiology",
-        "link": "https://apps.ualberta.ca/catalogue/course/micrb",
-        "faculties": ["SC"]
-    },
-    "MINT": {
-        "name": "Master of Internetworking",
-        "link": "https://apps.ualberta.ca/catalogue/course/mint",
-        "faculties": ["SC"]
-    },
-    "MM": {
-        "name": "Multimedia",
-        "link": "https://apps.ualberta.ca/catalogue/course/mm",
-        "faculties": ["SC"]
-    },
-    "PALEO": {
-        "name": "Paleontology",
-        "link": "https://apps.ualberta.ca/catalogue/course/paleo",
-        "faculties": ["SC"]
-    },
-    "PHYS": {
-        "name": "Physics",
-        "link": "https://apps.ualberta.ca/catalogue/course/phys",
-        "faculties": ["SC"]
-    },
-    "SCI": {
-        "name": "Science",
-        "link": "https://apps.ualberta.ca/catalogue/course/sci",
-        "faculties": ["SC"]
-    },
-    "STAT": {
-        "name": "Statistics",
-        "link": "https://apps.ualberta.ca/catalogue/course/stat",
-        "faculties": ["SC"]
-    },
-    "ZOOL": {
-        "name": "Zoology",
-        "link": "https://apps.ualberta.ca/catalogue/course/zool",
-        "faculties": ["SC"]
+        "faculties": [
+            "PH"
+        ]
     },
     "CATS": {
         "name": "Creative Arts Therapies",
         "link": "https://apps.ualberta.ca/catalogue/course/cats",
-        "faculties": ["SS"]
+        "faculties": [
+            "SS"
+        ]
     },
     "CHRTP": {
         "name": "Christian Theology at St Stephen's College",
         "link": "https://apps.ualberta.ca/catalogue/course/chrtp",
-        "faculties": ["SS"]
+        "faculties": [
+            "SS"
+        ]
+    },
+    "SPRIT": {
+        "name": "Spirituality and Multi-Faith Theologies",
+        "link": "https://apps.ualberta.ca/catalogue/course/sprit",
+        "faculties": [
+            "SS"
+        ]
+    },
+    "DAC": {
+        "name": "Dance Activity",
+        "link": "https://apps.ualberta.ca/catalogue/course/dac",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "DANCE": {
+        "name": "Dance",
+        "link": "https://apps.ualberta.ca/catalogue/course/dance",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "HE ED": {
+        "name": "Health Education",
+        "link": "https://apps.ualberta.ca/catalogue/course/he_ed",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "KIN": {
+        "name": "Kinesiology",
+        "link": "https://apps.ualberta.ca/catalogue/course/kin",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "KRLS": {
+        "name": "Kinesiology, Recreation, Leisure and Sport",
+        "link": "https://apps.ualberta.ca/catalogue/course/krls",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "KSR": {
+        "name": "Kinesiology, Sport, and Recreation",
+        "link": "https://apps.ualberta.ca/catalogue/course/ksr",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "RLS": {
+        "name": "Recreation and Leisure Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/rls",
+        "faculties": [
+            "PE"
+        ]
+    },
+    "EXSPH": {
+        "name": "CE - School of Public Health",
+        "link": "https://apps.ualberta.ca/catalogue/course/exsph",
+        "faculties": [
+            "PS"
+        ]
+    },
+    "MACE": {
+        "name": "Community Engagement",
+        "link": "https://apps.ualberta.ca/catalogue/course/mace",
+        "faculties": [
+            "PS"
+        ]
+    },
+    "SPH": {
+        "name": "School of Public Health",
+        "link": "https://apps.ualberta.ca/catalogue/course/sph",
+        "faculties": [
+            "PS"
+        ]
+    },
+    "ASTRO": {
+        "name": "Astronomy",
+        "link": "https://apps.ualberta.ca/catalogue/course/astro",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "BIOIN": {
+        "name": "Bioinformatics",
+        "link": "https://apps.ualberta.ca/catalogue/course/bioin",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "BIOL": {
+        "name": "Biology",
+        "link": "https://apps.ualberta.ca/catalogue/course/biol",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "BIOPH": {
+        "name": "Biophysics",
+        "link": "https://apps.ualberta.ca/catalogue/course/bioph",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "BOT": {
+        "name": "Botany",
+        "link": "https://apps.ualberta.ca/catalogue/course/bot",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "CHEM": {
+        "name": "Chemistry",
+        "link": "https://apps.ualberta.ca/catalogue/course/chem",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "CMPUT": {
+        "name": "Computing Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/cmput",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "EAS": {
+        "name": "Earth and Atmospheric Sciences",
+        "link": "https://apps.ualberta.ca/catalogue/course/eas",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "EN PH": {
+        "name": "Engineering Physics",
+        "link": "https://apps.ualberta.ca/catalogue/course/en_ph",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "ENT": {
+        "name": "Entomology",
+        "link": "https://apps.ualberta.ca/catalogue/course/ent",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "GENET": {
+        "name": "Genetics",
+        "link": "https://apps.ualberta.ca/catalogue/course/genet",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "GEOPH": {
+        "name": "Geophysics",
+        "link": "https://apps.ualberta.ca/catalogue/course/geoph",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "IMIN": {
+        "name": "Immunology and Infection",
+        "link": "https://apps.ualberta.ca/catalogue/course/imin",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "IPG": {
+        "name": "Integrated Petroleum Geosciences",
+        "link": "https://apps.ualberta.ca/catalogue/course/ipg",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "MA PH": {
+        "name": "Mathematical Physics",
+        "link": "https://apps.ualberta.ca/catalogue/course/ma_ph",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "MA SC": {
+        "name": "Marine Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/ma_sc",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "MATH": {
+        "name": "Mathematics",
+        "link": "https://apps.ualberta.ca/catalogue/course/math",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "MICRB": {
+        "name": "Microbiology",
+        "link": "https://apps.ualberta.ca/catalogue/course/micrb",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "MINT": {
+        "name": "Master of Internetworking",
+        "link": "https://apps.ualberta.ca/catalogue/course/mint",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "MM": {
+        "name": "Multimedia",
+        "link": "https://apps.ualberta.ca/catalogue/course/mm",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "PALEO": {
+        "name": "Paleontology",
+        "link": "https://apps.ualberta.ca/catalogue/course/paleo",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "PHYS": {
+        "name": "Physics",
+        "link": "https://apps.ualberta.ca/catalogue/course/phys",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "SCI": {
+        "name": "Science",
+        "link": "https://apps.ualberta.ca/catalogue/course/sci",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "STAT": {
+        "name": "Statistics",
+        "link": "https://apps.ualberta.ca/catalogue/course/stat",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "ZOOL": {
+        "name": "Zoology",
+        "link": "https://apps.ualberta.ca/catalogue/course/zool",
+        "faculties": [
+            "SC"
+        ]
+    },
+    "EXNS": {
+        "name": "CE - Faculty of Native Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/exns",
+        "faculties": [
+            "NS"
+        ]
+    },
+    "NS": {
+        "name": "Native Studies",
+        "link": "https://apps.ualberta.ca/catalogue/course/ns",
+        "faculties": [
+            "NS"
+        ]
+    },
+    "ADMI": {
+        "name": "FSJ - Administration",
+        "link": "https://apps.ualberta.ca/catalogue/course/admi",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ADRAM": {
+        "name": "FSJ - Art dramatique",
+        "link": "https://apps.ualberta.ca/catalogue/course/adram",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ALS": {
+        "name": "FSJ - Anglais langue seconde",
+        "link": "https://apps.ualberta.ca/catalogue/course/als",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ANATE": {
+        "name": "FSJ - Anatomie",
+        "link": "https://apps.ualberta.ca/catalogue/course/anate",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ANGL": {
+        "name": "FSJ - Anglais",
+        "link": "https://apps.ualberta.ca/catalogue/course/angl",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ANTHE": {
+        "name": "FSJ - Anthropologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/anthe",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "APPEX": {
+        "name": "FSJ - Apprentissage Exp\u00e9rientiel",
+        "link": "https://apps.ualberta.ca/catalogue/course/appex",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ARTE": {
+        "name": "FSJ - Arts",
+        "link": "https://apps.ualberta.ca/catalogue/course/arte",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "BIOCM": {
+        "name": "FSJ - Biochimie",
+        "link": "https://apps.ualberta.ca/catalogue/course/biocm",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "BIOLE": {
+        "name": "FSJ - Biologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/biole",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "CCALS": {
+        "name": "CCA - Anglais Langue Seconde",
+        "link": "https://apps.ualberta.ca/catalogue/course/ccals",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "CEDUL": {
+        "name": "FSJ - Certificat \u00c9ducation Leadership",
+        "link": "https://apps.ualberta.ca/catalogue/course/cedul",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "CHIM": {
+        "name": "FSJ - Chimie",
+        "link": "https://apps.ualberta.ca/catalogue/course/chim",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "CSSE": {
+        "name": "FSJ - Certificat Sup\u00e9rieur Sciences de l'\u00c9ducation",
+        "link": "https://apps.ualberta.ca/catalogue/course/csse",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "DET": {
+        "name": "FSJ - Doctorat en \u00c9tudes Transdisciplinaires",
+        "link": "https://apps.ualberta.ca/catalogue/course/det",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "DEVDU": {
+        "name": "FSJ - Developpement Durable",
+        "link": "https://apps.ualberta.ca/catalogue/course/devdu",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ECONE": {
+        "name": "FSJ - Economie",
+        "link": "https://apps.ualberta.ca/catalogue/course/econe",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "EDU F": {
+        "name": "FSJ - Education - Fondements",
+        "link": "https://apps.ualberta.ca/catalogue/course/edu_f",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "EDU M": {
+        "name": "FSJ - Education - Methodologie et Curriculum",
+        "link": "https://apps.ualberta.ca/catalogue/course/edu_m",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "EDU P": {
+        "name": "FSJ - Education - Psychologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/edu_p",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "EDU S": {
+        "name": "FSJ - Education - Stage",
+        "link": "https://apps.ualberta.ca/catalogue/course/edu_s",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "EPE": {
+        "name": "CCA - \u00c9ducation \u00e0 la petite enfance",
+        "link": "https://apps.ualberta.ca/catalogue/course/epe",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ET RE": {
+        "name": "FSJ - Etudes de la religion",
+        "link": "https://apps.ualberta.ca/catalogue/course/et_re",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ETCAN": {
+        "name": "FSJ - Etudes canadiennes",
+        "link": "https://apps.ualberta.ca/catalogue/course/etcan",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ETIN": {
+        "name": "FSJ - Etudes interdisciplinaires",
+        "link": "https://apps.ualberta.ca/catalogue/course/etin",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "EXCSJ": {
+        "name": "CE - Campus Saint-Jean",
+        "link": "https://apps.ualberta.ca/catalogue/course/excsj",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "FRANC": {
+        "name": "FSJ - Fran\u00e7ais",
+        "link": "https://apps.ualberta.ca/catalogue/course/franc",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "GENEQ": {
+        "name": "FSJ - G\u00e9n\u00e9tique",
+        "link": "https://apps.ualberta.ca/catalogue/course/geneq",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "GENIE": {
+        "name": "FSJ - Science en G\u00e9nie",
+        "link": "https://apps.ualberta.ca/catalogue/course/genie",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "GTOTC": {
+        "name": "CCA - Gestion touristique",
+        "link": "https://apps.ualberta.ca/catalogue/course/gtotc",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "HISTE": {
+        "name": "FSJ - Histoire",
+        "link": "https://apps.ualberta.ca/catalogue/course/histe",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "HUME": {
+        "name": "FSJ - Humanit\u00e9s",
+        "link": "https://apps.ualberta.ca/catalogue/course/hume",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "IMINE": {
+        "name": "FSJ - Immunologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/imine",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "INFOR": {
+        "name": "FSJ - Informatique",
+        "link": "https://apps.ualberta.ca/catalogue/course/infor",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "LINGQ": {
+        "name": "FSJ - Linguistique",
+        "link": "https://apps.ualberta.ca/catalogue/course/lingq",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "LITT": {
+        "name": "FSJ - Litt\u00e9rature",
+        "link": "https://apps.ualberta.ca/catalogue/course/litt",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "M EDU": {
+        "name": "FSJ - Ma\u00eetrise \u00e8s sciences de l'\u00e9ducation",
+        "link": "https://apps.ualberta.ca/catalogue/course/m_edu",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "MAFSJ": {
+        "name": "FSJ - Maitrise en Art Facult\u00e9 Saint-Jean",
+        "link": "https://apps.ualberta.ca/catalogue/course/mafsj",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "MATHQ": {
+        "name": "FSJ - Math\u00e9matiques",
+        "link": "https://apps.ualberta.ca/catalogue/course/mathq",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "MICRE": {
+        "name": "FSJ - Microbiologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/micre",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "MSFSJ": {
+        "name": "FSJ - Ma\u00eetrise en Sciences Facult\u00e9 Saint-Jean",
+        "link": "https://apps.ualberta.ca/catalogue/course/msfsj",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "MUSIQ": {
+        "name": "FSJ - Musique",
+        "link": "https://apps.ualberta.ca/catalogue/course/musiq",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "PCOLE": {
+        "name": "FSJ - Pharmacologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/pcole",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "PHILE": {
+        "name": "FSJ - Philosophie",
+        "link": "https://apps.ualberta.ca/catalogue/course/phile",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "PHYSE": {
+        "name": "FSJ - Physiologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/physe",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "PHYSQ": {
+        "name": "FSJ - Physique",
+        "link": "https://apps.ualberta.ca/catalogue/course/physq",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "PSSTC": {
+        "name": "CCA - Pr\u00e9pos\u00e9 aux soins de sant\u00e9",
+        "link": "https://apps.ualberta.ca/catalogue/course/psstc",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "PSYCE": {
+        "name": "FSJ - Psychologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/psyce",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "SC PO": {
+        "name": "FSJ - Science politique",
+        "link": "https://apps.ualberta.ca/catalogue/course/sc_po",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "SCSOC": {
+        "name": "FSJ - Sciences sociales",
+        "link": "https://apps.ualberta.ca/catalogue/course/scsoc",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "SCSP": {
+        "name": "FSJ - Sciences socio-politiques",
+        "link": "https://apps.ualberta.ca/catalogue/course/scsp",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "SOCIE": {
+        "name": "FSJ - Sociologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/socie",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "STATQ": {
+        "name": "FSJ - Statistique",
+        "link": "https://apps.ualberta.ca/catalogue/course/statq",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "TAACO": {
+        "name": "CCA - Comptabilit\u00e9",
+        "link": "https://apps.ualberta.ca/catalogue/course/taaco",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "TAAFI": {
+        "name": "CCA - Finance",
+        "link": "https://apps.ualberta.ca/catalogue/course/taafi",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "TAAMG": {
+        "name": "CCA - Management",
+        "link": "https://apps.ualberta.ca/catalogue/course/taamg",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "TAAMK": {
+        "name": "CCA - Marketing",
+        "link": "https://apps.ualberta.ca/catalogue/course/taamk",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "TAARH": {
+        "name": "CCA - Ressources humaines",
+        "link": "https://apps.ualberta.ca/catalogue/course/taarh",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "TAATC": {
+        "name": "CCA - Tronc commun",
+        "link": "https://apps.ualberta.ca/catalogue/course/taatc",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "ZOOLE": {
+        "name": "FSJ - Zoologie",
+        "link": "https://apps.ualberta.ca/catalogue/course/zoole",
+        "faculties": [
+            "SA"
+        ]
+    },
+    "CSD": {
+        "name": "Communication Sciences and Disorders",
+        "link": "https://apps.ualberta.ca/catalogue/course/csd",
+        "faculties": [
+            "RM"
+        ]
+    },
+    "EXFRM": {
+        "name": "CE - Faculty of Rehabilitation Medicine",
+        "link": "https://apps.ualberta.ca/catalogue/course/exfrm",
+        "faculties": [
+            "RM"
+        ]
+    },
+    "OCCTH": {
+        "name": "Occupational Therapy",
+        "link": "https://apps.ualberta.ca/catalogue/course/occth",
+        "faculties": [
+            "RM"
+        ]
+    },
+    "PTHER": {
+        "name": "Physical Therapy",
+        "link": "https://apps.ualberta.ca/catalogue/course/pther",
+        "faculties": [
+            "RM"
+        ]
+    },
+    "REHAB": {
+        "name": "Rehabilitation Medicine",
+        "link": "https://apps.ualberta.ca/catalogue/course/rehab",
+        "faculties": [
+            "RM"
+        ]
     }
 }
